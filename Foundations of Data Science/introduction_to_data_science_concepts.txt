@@ -1,0 +1,35 @@
+# Welcome to the Google Advanced Data Analytics Certificate
+ - Tremendious variaties on data science
+ . Machine learning
+  :- An alternative approach to automation expressing the way you want to task done by using data instead of explict instructions.
+ - Data professional has wide range of areas to work.
+
+# Google Advanced Data Analytics Certificate overview
+
+# Introduction to Course 1
+ - Program overview
+  . Code in Python
+  . Discover stories that data hold
+  . Develop data visuals
+  . Use statistical tools
+  . Build models
+  . Explore machine learning
+
+# Helpful resources and tips
+ - Healthy habits for course completion
+  . Plan your time
+  . Work ad your own pace
+  . Be curious
+  . Take notes
+  . Review exaplers.
+  . Build your career identity
+  . Connect with other learners
+  . Update your profile
+
+
+
+
+  
+
+
+

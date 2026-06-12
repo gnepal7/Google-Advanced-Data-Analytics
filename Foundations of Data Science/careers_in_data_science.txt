@@ -1,0 +1,77 @@
+# Welcome to module 1
+
+# Data discourse over the years
+- What is data science vs. data analytics
+ . Data science is an entire field dedicated to making data more useful.
+ . Data analytics is a subfield of the larger data science discipline.
+ 
+ => Data science 
+ . Produces broad insights that concentrate on which questions should be asked about data
+ . Confronts what is unknown by using advanced techniques to make predictions about the future 
+ . Seeks to answer questions like “What will happen?” and “How can we make X happen?”
+ 
+ => Data analytics
+  . Emphasizes discovering answers to questions being asked 
+  . Determines actionable insights that can be applied immediately based on existing queries
+  . Seeks to answer questions like “What happened?” and “Why did it happen?”
+
+- The connections between data science and data analytics
+  . Data science and analytics both uncover insights for organizational growth.
+  . Both rely on measurable real-world data and interactions.
+  . Data teams combine analysts and scientists for collaborative projects.
+  . Similar tools, software, and programming languages are commonly used.
+  . Job roles and titles often overlap across industries and organizations.
+
+- The data career space over time
+ . In 1965, the world’s population was 3.3 billion. The Mariner 4 spacecraft took the first 
+   close-up pictures of Mars. The first commercial communications satellite allowed nearly 
+   instantaneous contact between Europe and North America.
+   + Technology:-
+    - Early computations shifted from manual work to programmable calculators.
+   + Data Storage:-
+    - Punch cards and magnetic tapes stored growing business data.
+   + Data Analysis
+    - Smaller, cheaper computers increased company adoption of data analysis.
+   + Communication:-
+    - Electric typewriters improved document creation and office correspondence.
+    - Advanced telephone systems enhanced communication within organizations.
+ 
+ . In 1985, the world’s population was 4.8 billion.
+   + Technology : Fax machines and personal computers transformed business communication.
+   + Data storage : Floppy disks and hard drives improved data storage capacity.
+   + Data analysis : Electronic spreadsheets revolutionized financial data organization and analysis.
+   + Communication : Email enabled faster communication among organizations and institutions.
+ 
+ . In 2005, the world’s population was 6.5 billion.
+   + Technology : High-speed internet and smart devices expanded global connectivity.
+   + Data storage : Cloud services and flash drives improved digital data storage.
+   + Data analysis : Predictive modeling and unstructured data analytics became essential.
+   + Communication : Smart devices enabled global collaboration, email, and instant messaging.
+ 
+ . Today the world’s population is around 8 billion
+   + Technology : AR, VR, IoT, and edge computing enhance digital experiences.
+   + Data storage : Quantum computing aims to revolutionize processing and storage capabilities.
+   + Data analysis : Artificial intelligence accelerates innovation and human decision-making abilities.
+   + Communication : Virtual meetings and task software support global asynchronous collaboration.
+
+# Explore your data toolbox
+ - R programming language
+   . Used by researchers and academics
+   . Can create complex statistical models
+ - Python programming language
+   . Tahguth in this program
+   . Emphasizes readability
+   . Flexible
+   . Visually uncluttered
+   . Large online communities and resources
+ - Jupyter Notebooks
+  . Run code in real time
+  . Identify errors easily
+ - Tabeleau
+  . Share complex data through a graphical interface
+  . Help other understahd with simple presentations
+ - The data analytics toolbox
+  . Programming languages
+  . Visual data tools
+  . Storyteller
+
