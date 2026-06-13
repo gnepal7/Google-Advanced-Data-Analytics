@@ -1,0 +1,94 @@
+# A lifelong love of data
+ - Data becomes valuable when it's related to decisions or real world actions.
+
+# The future of data careers
+ - AI :- computer systems able to perform tasks that normally require human intelligence
+ + Activities covered by the data professionals
+  1. Statistical inference
+  2. Machine learning
+  3. Data analytics
+
+# Current and future tools
+ + Tools today
+  - Spreadsheets
+   . Google Spreadsheets
+   . Microsoft Excel
+  - Databases 
+   . Google Cloud
+   . CloudSQL
+   . Oracle
+   . Microsoft SQL Serer
+  - Programming languages
+   . SQL
+   . R
+   . Python
+   . Java
+   . C++
+  - Data visualization
+   . Tableau
+   . Matplotlib
+   . Seaborn 
+   . Google Charts
+   . InfoGram
+   . ChartBlocks
+  - Dashboards
+   . Tableau
+   . LookerStudio
+   . Microsoft PowerBI
+
+ + You in the near future
+   - NumPy and pandas for data processing and manipulation
+   - matplotlib.pyplot, seaborn, and Tableau for visualizations
+   - statsmodels for statistical tests and regression modeling
+   - scikit-learn for building machine learning models
+
+  + Tools tomorrow and beyond
+   - AI :- Artificial intelligence
+    . AI performs tasks that normally require human intelligence.
+    . AI provides real-time insights to support faster decision-making.
+    . Businesses use AI to monitor user behavior and improve systems quickly.
+    . Understanding AI is important for career growth in data analytics.
+    . Tools like Tableau AI help automate tasks and suggest visualizations.
+   - ML :- Machine learning
+    . Machine learning uses algorithms and statistical models to find patterns in data.
+    . It helps analysts process large datasets and detect insights like fraud.
+    . Combining machine learning with other technologies enables faster automation and insights.
+
+# How data professionals use AI
+ + The uses of AI for data work
+  . Create predictive models to help accurately forecast future events or outcomes. 
+  . Automate time-consuming tasks such as data cleaning, coding, and report writing. 
+  . Analyze extremely large datasets. 
+  . Improve the quality of data by identifying and correcting errors. 
+  . Generate insights from data that would not be obvious to humans. 
+  . Provide guidance on tasks such as choosing the right algorithms and interpreting results. 
+  . Facilitate collaboration among team members. 
+
+ + Conversational AI tools: Gemini and ChatGPT
+   . Clean a dataset by removing missing values, outliers, and duplicate data.
+   . Create interactive data visualizations such as dashboards and heatmaps. 
+   . Recommend a specific algorithm for a particular task based on the data professional's input.
+   . Create a shared document to facilitate a brainstorming session among a team of data professionals. 
+
+ + Data professionals use AI in specific sectors
+  - Finance
+  - Retail
+  - Manufacturing
+
+ + AI and human data professionals 
+  - AI currently lacks:
+   . Intuition
+   . Deal with ambiguity
+   . Interpersonal communication
+   . Creaticity
+   . Criical thinking
+   . Leadership
+   . Factuality
+
+# The places you’ll go…
+ - Tableau dashboards
+ - Notebooks on Kaggle
+  . https://www.kaggle.com/jessemostipak
+ - GitHub repositories
+ - Blogs on Medium
+ - Other approaches

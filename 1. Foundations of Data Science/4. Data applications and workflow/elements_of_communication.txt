@@ -1,0 +1,124 @@
+# Key elements of communication
+ - Purpose
+  . The reason why the communication is taking pace
+ - Receiver
+  . Your audience
+  => Questions to keep in mind
+   . What does my audience already know?
+   . What do they need to know?
+ - Sender
+  . The person responsible for crafting the message or communication
+  => Questions to keep in mind
+   . What's your relationship to the receivers?
+   . What's your role in this exchange?
+   . What personal biases might affect the message?
+
+# Best communication practices for data professionals
+ + Effective communication drives PACE 
+  . Communication is essential throughout all PACE stages.
+  . Data professionals must share progress, obstacles, and results with stakeholders.
+  . Strong communication and technical skills are both needed for success.
+
+ + Seven tips for effective communication
+  1. Speak the language of your audience
+   - Why has this person contacted you?
+   - What does your stakeholder want from this interaction?
+   - What’s important to them, their team, or their organization?
+  2. Invite questions and welcome feedback
+   - Merge your passion for finding solutions with the goals of the project.
+   - Continue to strive for greater understanding of the results.
+   - Elicit feedback and questions to improve communication about your projects.
+   - Consider opportunities to reflect on your communication skills.
+  3. Be the connection to the data
+   - Focus on the objectives to help others better understand your data process.
+   - Tell the story of the data with a compelling and cohesive narrative.
+   - Respond to questions in a timely manner.
+   - Demonstrate your value to the team. 
+   - Find opportunities to address stakeholder questions.
+  4. Let your visualizations help tell the story
+   - Be sure that your visuals tell the story within the data.
+   - Design visualizations for inclusivity.
+   - Use labels and text to clarify, not clutter. 
+   - Use fonts that are easy to read.
+   - Use high contrast, shading, and other customizations to communicate your messages clearly.
+   - Offer handouts, slides, and other material in accessible formats.
+  5. Build positive professional relationships
+   - Focus on what matters to your audience.
+   - Invite feedback and discussion.
+   - Be a trusted subject matter expert who communicates clearly and inclusively.
+   - Cultivate positive interactions to strengthen working relationships and improve morale.
+  6. Identify assumptions about the data
+   - Is there something I am taking for granted?
+   - Am I assuming something here that I shouldn’t?
+   - Can I determine if the assumption is correct?
+  7. Identify limitations in the data
+   - Is the data complete? Are there missing values or sections?
+   - Are the datasets formatted correctly?
+   - Is this a sufficient sample size to conduct analysis of an entire population or group?
+   - What are the biases present in the data set?
+
+ + Share Findings
+   - Craft results to the needs of your stakeholders.
+   - Determine the visualizations and/or dashboards that are the most effective
+   - Think about the design carefully.
+   - Use a hierarchy of data in your visualizations/dashboards.
+  => Keep in mind:-
+   . What information is the most important to my audience?
+   . What is the most efficient way to share with the tools available and the time I’m allotted?
+   . What can I do to make the key points effectively?
+
+ + Presentations :- Tips for presentations
+   - Structure your presentation.
+   - Presentation slides are not scripts.
+   - Make sure your data can be understood visually and consider potential 
+     accessibility challenges for your audience.
+   - Focus most on the points your data illustrates.
+   - Share one—and only one—major point from each chart.
+   - Label chart components clearly.
+   - Visually highlight “Aha!” zones.
+   - Write a slide title that reinforces the data’s point.
+
+# Communication drives PACE
+
+# Elements of successful communication
+ + When you prepare to communicate, outline important 
+   goals and expectations, like:
+  - Goals of the project you are communicating about
+  - What you hope to gain from this communication
+  - What you’re asking your audience to do
+  - What you need your audience to understand
+
+ + Set the stage
+  - Ask a coworker for advice about a recent obstacle over lunch
+  - Send an email updating all the stakeholders about an important project
+  - Share progress with your team in a weekly meeting
+  - Present the results of your analysis to a boardroom of executives
+
+ + How to work one-on-one and in small groups
+  - Respect your colleagues' time by scheduling a meeting in advance 
+  - Convey interest by practicing active listening
+  - Check for alignment by asking questions
+
+ + All about time:- Remember to always:
+  - Use direct language 
+  - Minimize wordiness
+  - Avoid unnecessary details
+  - Always strive for clarity  
+  - Use proper grammar and punctuation
+  - Keep vocabulary simple and avoid technical language
+  - Break complex ideas into shorter sentences
+
+ + Active Listening:- Whan you listen actively, you:
+  - Invite understanding of others
+  - Develop empathy for others and their responsibilities 
+  - Build a connection with colleagues
+  - Promote trust
+
+ + Asking Questions:- guide for questioning
+ - Ask questions that haven’t been answered already
+ - Ask questions that reveal the bigger picture
+ - Ask questions that gather information or further the knowledge of the team
+ - Ask questions that can help clarify misunderstandings
+
+
+

@@ -1,0 +1,69 @@
+# Connect PACE with upcoming course themes
+
+# The value of the PACE strategy document
+ + Why do I need the PACE strategy document?
+  - Program builds foundational and advanced data skills.
+  - Success requires both technical and communication skills.
+  - Data professionals support organizational decision-making.
+  - Stakeholder communication is a key responsibility.
+  - Courses are structured in a logical learning progression.
+  - Each course includes an end-of-course project.
+  - Projects demonstrate analytical and communication mastery.
+  - PACE strategy documents guide course project work.
+  - They include tips and reflection opportunities.
+  - Documents help create executive summaries for stakeholders.
+  - They track progress and improve communication skills over time.
+
+ + A look at the PACE strategy document
+  - Instructions :- general guidelines and special considerations
+  - Course project recap
+  - Relevant interview questions
+  - Review relevant course materials
+  - Reference guide
+  - Data project questions and considerations
+
+ + PACE strategy documents and Jupyter notebooks
+  - Each end-of-course project includes a Jupyter notebook with programming guidance and tips.
+  - Notebooks and strategy documents both include guiding questions, sometimes overlapping.
+  - These resources help create executive summaries for stakeholders during project execution.
+
+ + The benefits of the PACE strategy documents
+  - PACE documents help overcome challenges in building a portfolio.
+  - Recording decisions and reflections increases future value of your work.
+  - They provide material for a cohesive, professional portfolio over time.
+
+# Communicate objectives with a project proposal
+ + Project proposal
+  - Project proposals define objectives and requirements.
+  - They break ideas into actionable milestones.
+  - They are created with input from stakeholders and teams.
+  - Proposals are shared with clients or executives for approval.
+  - They are widely used across many industries.
+  - Key elements are generally consistent despite design differences.
+  => Elements of a project proposal
+   . Project title
+   . Project objectives
+   . Milestones
+   . Tasks
+   . Outcomes
+   . Deliverables
+   . Stakeholders
+   . Estimated time
+
+# Connect PACE with executive summaries
+ + Executive summaries
+  - Executive summaries highlight key project points for decision-makers.
+  - They help stakeholders and new team members quickly understand projects.
+  - They are designed for busy executives who need concise information.
+  - Executive summaries are used across many industries.
+  - Formats vary, but common key elements exist.
+  => Elements of an executive summary
+   . Project title
+   . The problem
+   . The solution
+   . Details/key insights
+   . Next steps/Recommendations
+
+
+
+

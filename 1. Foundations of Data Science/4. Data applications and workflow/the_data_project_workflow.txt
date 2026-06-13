@@ -1,0 +1,68 @@
+# Importance of communication in a data science career
+ - Be asked to be invited to meetings where you don't need to contribute, 
+   but you can use it as an opportunity to observe people who are good
+   ad communicating.
+
+# Introduction to PACE
+ "By failing to prepare, ​you are preparing to fail."
+  - Benjamin Franklin
+ + Data workflow structure:-
+  - Ask
+  - Prepare
+  - Process
+  - Analyze
+  - Share
+  - Act
+ + PACE Framework includes:
+  => Plan
+   - What are the goals of the project?
+   - What strategies will be needed?
+   - What will be the business or operational impacts?
+  => Analyze
+   - Acquire data from primary and secondary sources
+   - Clean, reorganize, and transform data for analysis
+   - Engage in Exploretory data analysis (EDA)
+   - Work with stakeholders
+  => Construct
+   - Build and reviese machine learning models
+   - Uncover relationships in the data
+   - Apply statistical inferences about data relationships
+  => Execute
+   - Present finding to internal and external stakeholders
+   - Answer questions
+   - Consider differing viewpoints\
+   - Present recommendations based on the data
+
+# The PACE Stages
+ => A closer look at the PACE model
+ + Plan :- conceptualize the scope of the project and develop the steps
+  . Research business data
+  . Define the project scope
+  . Develop a workflow
+  . Assess project and/or stakeholder needs
+ + Analyze :- Collect, prepare, and analyze all of the data for project.
+  . Format database
+  . Scrub data
+  . Convert data into usable formats
+ + Construct :- Build models that will allow you access to hidden relationships locked within data
+  . Select modeling approach
+  . Build models
+  . Build machine learning algorithms
+ + Execute :- Present the finding of your analysis
+  . Share results
+  . Present findings to other stakeholders
+  . Address feedback
+
+  - Communication and PACE 
+   . Communication is essential throughout all PACE workflow stages.
+   . It supports tasks like asking questions, gathering data, and updating stakeholders.
+   . Feedback and communication help improve progress and final results.
+  
+  - Adaptability of PACE
+   . PACE begins with planning, gathering information and setting structure.
+   . Analysis and construction support building models and interpreting data.
+   . Execution involves sharing results and collecting stakeholder feedback.
+   . PACE is flexible and not strictly linear in order.
+   . Communication allows movement between stages as needed.
+
+

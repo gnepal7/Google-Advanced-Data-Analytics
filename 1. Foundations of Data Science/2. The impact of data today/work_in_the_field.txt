@@ -64,4 +64,3 @@
    . Trust in data teams is built through communication and results.
 
  - RACI :- Responsible, Accountable, Consulted, and Informed
-
