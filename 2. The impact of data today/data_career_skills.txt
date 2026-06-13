@@ -1,0 +1,160 @@
+# The top skills needed for a data career
+ - Interpersonal skills
+  . Traits that focus on communicating and building relationships
+  . Plan => Analyze => Construct => executives
+  . Active listening
+  
+  + Data cleaning:
+   - The process of formatting data and removing unwanted materials
+
+# Ideal qualities for data analytics professionals
+ + Being coachable
+  - Coachable people use feedback to improve and grow.
+  - Growth mindset encourages learning through hard work and reflection.
+ 
+ + A passion for data analysis
+  - Employers value passion for data analysis beyond workplace duties.
+  - Volunteering and community projects demonstrate analytical commitment.
+  - Personal side projects showcase practical data analysis skills.
+  - Connecting with analysts helps build knowledge and experience.
+  - Kaggle offers challenges, collaboration, and portfolio-building opportunities.
+ 
+ + Lifelong learning
+  - Data workspaces continuously evolve through technological advancements.
+  - Change remains constant across all eras of data analytics.
+  - Data professionals must continually learn new tools and techniques.
+
+ + Strong interpersonal skills
+  - Data professionals closely collaborate with business intelligence professionals.
+  - Data analysts interact with diverse stakeholders throughout projects.
+  - Cross-functional teamwork includes clients, users, and external representatives.
+
+ + Communication
+  - Maintain professional, error-free written communication.
+  - Include writing samples in your professional portfolio.
+  - Showcase communication through reflections, summaries, proposals, or blogs.
+ 
+ + Problem solver
+  - Focus on achievements instead of listing responsibilities.
+  - Highlight measurable results and organizational impact.
+  - Include data or metrics showing improvements from your actions.
+
+# Volunteer data skills to make a positive impact
+ + Nonprofits
+  - Nonprofits aim to address unmet needs in society.
+  - They focus on public benefit rather than profit.
+  - Data professionals can support nonprofits using analytical skills.
+  - Global nonprofits include organizations like Doctors Without Borders.
+  - Many local nonprofits operate with limited resources.
+  - Volunteers often help fill roles like marketing and data analysis.
+  - Charity Navigator helps evaluate and find trusted nonprofits.
+
+ + Volunteering data skills to nonprofits
+  - Data analytics skills can significantly support nonprofit and charity organizations.
+  - Many nonprofits rely heavily on volunteers due to limited resources.
+  - Volunteering with local nonprofits builds experience while supporting meaningful causes
+  . How can data analytics professionals help nonprofits?
+   - Fundraising
+   - Marketing
+   - Monitoring activities
+ 
+ + More opportunities to volunteer
+  - DataKind is a nonprofit using data science and AI for humanitarian impact.
+  - It focuses on improving underserved communities through data-driven solutions.
+  - DataKind connects volunteer experts from academia and industry.
+  - It applies predictive analytics, machine learning, and AI to social problems.
+  - Ethical considerations are important in all DataKind projects.
+  - Hackathons are collaborative events to solve real-world problems.
+  - Platforms like Devpost list global hackathons and opportunities.
+
+# Important ethical considerations for data professionals
+ + Personally identifiable information (PII)
+  :- Information that permits the identity of an individual 
+     to be inferred by either direct or indirect means.
+  - Examples of PII
+   . Biometric records
+   . Usernames
+   . Social security of national identification numbers
+ 
+ + Aggregate information
+  :- Data from a significant number of users that has eliminated 
+     personal information
+ 
+  - Bian sholud be considerable while collecing and interpreting data
+
+ + Sample
+  :- A segment of a population that is representative of the entire population
+
+# Critical data security and privacy principles
+ - Data ethics governs responsible collection, sharing, and use of data.
+ - Personally identifiable information must be carefully protected.
+ - Data privacy and security must be maintained throughout data lifecycle.
++ Privacy matters
+ - Protection from unauthorized access to their private data
+ - Freedom from inappropriate use of their data
+ - The right to inspect, update, or correct their data
+ - Ability to give consent to data collection
+ - Legal right to access the data
+
++ Protecting privacy with data anonymization 
+ - Access permissions restrict data to authorized users only.
+ - Data anonymization removes personally identifiable information (PII).
+ - Techniques include masking, hashing, and data replacement.
+ - Data aggregation summarizes information from many users.
+ - These methods improve privacy and ensure compliance standards.
+ - Sensitive data related to PII include:
+  . Telephone numbers
+  . Names
+  . License plates and license numbers
+  . Social security numbers
+  . IP addresses
+  . Medical records
+  . Email addresses
+  . Photographs
+  . Account numbers
+
+# The practices and principles of good data stewardship
+ + Respect privacy
+  - PII is information that can identify individuals directly or indirectly.
+  - Organizations have a responsibility to protect user privacy.
+  - Users trust companies with their personal data.
+  - Data professionals must handle personal data with care.
+  - Data privacy laws guide best practices globally.
+  - Professionals must stay updated on changing regulations.
+  - General Data Protection Regulation (GDPR): EU law protecting data privacy and security.
+  - Lei Geral de Proteção de Dados Pessoais (LGPD): Brazilian law regulating personal data use.
+  - California Consumer Privacy Act (CCPA): Gives California consumers control over personal data.
+  - Other U.S. states also enforce similar privacy protection laws.
+
+ + Be cautious of unintentional harm
+  - Data analytics influences decisions across many industries.
+  - Data-driven decisions can impact social and economic factors.
+  - Accuracy and respect for cultural norms are important in analysis.
+  - Global markets require awareness of differing cultural impacts.
+  - Data professionals should follow company policies and seek leadership guidance.
+
++ Avoid creating or reinforcing bias
+ - Data bias can be difficult to identify in analysis.
+ - Data collection is influenced by human perspectives and experiences.
+ - Different backgrounds and beliefs can introduce bias into data.
+ - Bias can affect results and business decision-making.
+
++ Consider inclusivity
+ - Data collection methods may exclude certain populations.
+ - Inclusive approaches improve data collection and analysis quality.
+ - Diverse teams and equity-focused analysis benefit all stakeholders.
+
++ Uphold high standards of scientific excellence
+ - Data analytics is grounded in the scientific method.
+ - Inquiry, collaboration, and feedback improve analytical outcomes.
+ - AI depends on instructions provided by data professionals.
+ - More careful analysis leads to better results.
+ - Different industries follow different data standards and conventions.
+ - Industry priorities vary, such as transportation vs healthcare use cases.
+ - Examples include route prediction in transport and medical analysis in healthcare.
+
++ Data stewardship and ethics conversations
+ - Data professionals must address ethical issues like bias and PII protection.
+ - Protecting user data and privacy is a key responsibility.
+ - Professionals often seek guidance from online data communities.
+ - Shared experiences help solve similar ethical challenges.

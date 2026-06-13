@@ -1,0 +1,67 @@
+# The data professional career space
+ - Data tasks and responsibilities are dependent on an organization's
+   data, team structure, and how they make use of insights and analytics.
+
+ + Common data professional job titles
+  - Data analyst
+  - Data scientist
+  - Responsibilities
+   . Look for patterns and trends within big datasets
+   . Uncover the stories inside data
+   . Help guide decision making
+   . Translate key information into visualizations
+
+ + Other data professional job titles
+  - Junior data scientist
+  - Data scientist-entry level
+  - Associate data scientist
+  - Data science associate
+
+ + Roles that use data and analytical skills
+  - Data engineer
+  - Insights or analytics team manager
+  - Business intelligence engineer or analyst
+
+ + Data engineer responsibilities:
+  - Make data accessible
+  - Ensure data ecosystem produces reliable results
+  - Deal with infrastructure for data across enterprise
+
+ + Insights or analytic team manager responsibilities:
+  - Supervise analytical strategy of organization
+  - Manage multiple groups
+
+# Build the perfect data team
+ + Five principles for data team building
+  1. Adaptability
+   . Data platforms should be flexible for different tools and preferences.
+   . Remote and on-site teams need open access to shared data resources.
+   . Allowing tool flexibility broadens hiring and improves team diversity.
+   . Organizations benefit from adaptable and inclusive data environments.
+   . Data professionals must continuously learn new skills and technologies.
+  2. Activation
+   . Data analysis requires skilled and experienced data professionals.
+   . Organizations should build data literacy through daily habits and routines.
+   . Dashboards improve access to data and support collaboration.
+   . Interpersonal skills are essential for successful data culture transformation.
+   . Data professionals help promote understanding across the organization.
+  3. Standardization
+   . Standardizing data practices improves communication and consistency.
+   . Shared assets and code increase efficiency and save development time.
+   . Collaboration helps embed best practices into organizational culture.
+   . Innovation is important for developing effective best practices.
+   4. Accountability
+   . Data analysis requires strong accountability and responsibility.
+   . A clear “paper trail” ensures transparency and process tracking.
+   . Accountability improves explainability, security, and alignment with goals.
+   . Metadata and records help teams analyze and adjust models.
+   . Communication throughout workflows supports organizational accountability.
+  5. Business impact
+   . Data projects can fail when business impact is unclear.
+   . Planning should consider all possible data solutions and constraints.
+   . Factors like resources, integration, and timelines must be evaluated.
+   . Broadening project scope improves solution quality over time.
+   . Trust in data teams is built through communication and results.
+
+ - RACI :- Responsible, Accountable, Consulted, and Informed
+
