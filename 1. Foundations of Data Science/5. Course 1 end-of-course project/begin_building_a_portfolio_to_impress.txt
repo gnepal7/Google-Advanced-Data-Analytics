@@ -1,0 +1,30 @@
+# The value of a portfolio
+ + Experiential learning
+  . Understanding through doing
+  . Provide valuable insight
+  - Diccover how organizations use data analysis every day
+  - Identity the specific types of industries and projects that are most intersting
+  - Gain the confidence necessary to discuss them with potential employers
+
+  + Portfolio
+   - Collection of materials or completed tasks
+
+  + Transferable skill 
+   - A capacity or proficiency that can be applied from one job to another
+   - Transferable skill = problem-solving
+
+  + Data tidying
+   - Structuring datasets to facilitate analysis
+
+  + Tidy dataset
+   - Easy to manipulate, model, and visualize
+   - Each variable is a column
+   - Each observation is a row
+   - Each type of observation unit is a table
+
+  + Portfolio project
+
+# Review pandas
+  - groupby()
+  - describe()
+  - columns()

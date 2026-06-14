@@ -1,0 +1,29 @@
+# Combine PACE and EDA practices
+ - Sharing the PACE plan to everyone
+ - PACE and EDA can inter-related for whole process.
+ - Accurately represent the data itselves.
+
+# Reference guide: The EDA process
+  + The six practices of EDA are iterative and non-sequential
+   . Iterative: Relating to or involving repetition of a process
+   . Non-sequential: Not arranged in or following an order or sequence.
+  
+  + The importance of EDA in ethical machine learning
+    . Key principles of the EDA process
+     - Human augmentation
+       => Human oversight in AI systems helps prevent bias and inaccurate algorithmic decisions.
+     - Bias evalution
+       => Thorough EDA identifies data bias, imbalance, and inaccuracies before model training.
+
+# PACE with data visualizations
+  - Data visualizations can impact business decisions
+  - It shouldn't mislead audiences
+  - It is a way of presenting facts about the data.
+
+  - Data visualization Python packages:
+   . Matplotlib
+   . Seaborn
+   . Plotly
+
+
+

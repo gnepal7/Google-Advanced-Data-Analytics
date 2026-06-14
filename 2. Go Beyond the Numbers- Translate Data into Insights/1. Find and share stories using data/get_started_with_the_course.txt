@@ -1,0 +1,60 @@
+# Introduction to Course 2
+  + What you'll learn
+   - Explore how to find and sculpt stories
+   - Discuss how PACE applies to telling stories using data
+   - Perform exploratory data analysis on a dataset in Python
+    
+   . Data sources, types, structuring, and cleaning
+   . Missing values, outliers, and categorical data
+   . Ethics of exploring and cleaning raw data
+   . Communicating your questions and findings
+   . Tableau
+   . Visualization and presentation
+
+# Course 2 overview
+
+# Helpful resources and tips
+
+# Obstacles and achievements
+
+# Find stories using the six exploratory data analysis practices
+  + Exploratory data analysis (EDA)
+   - The process of investigating, organizing, and analysing dataset 
+     and summarizing their main charecteristics, often employing
+     data wrangling and visualization methods.
+    
+    - Practices of EDA:-
+     . Discovering
+       => Data professionals familiarize themselves with the data so they
+          can start conceptualizing how to use it.
+     . Structuring
+       => The process of taking raw data and or organizing or transforming it 
+          to be more easily visualized, explained, and modeled
+     . Cleaning
+       => The process of removing errors that may distort your data
+          or make it less useful.
+     . Joining
+       => The process of augmenting or adjusting data by adding values
+          from other datasets
+     . Validating
+       => The process of varifying that the data is consistent and high quality.
+     . Presenting
+       => Making your cleaned dataset or data visualizations available to 
+          others for analysis or further modeling
+    
+    + Bias (in data structuring):-
+     - Organizing data in groupings, categories, or variables that don't 
+     accurately represent the whole dataset. Should try to avoid bias.
+    + Data visualization:-
+     - A graph, chart, diagram, or dashboard that is created as a 
+     representation of information.
+
+# Case study: Deloitte
+
+# Data science and storytelling
+
+
+
+
+
+
