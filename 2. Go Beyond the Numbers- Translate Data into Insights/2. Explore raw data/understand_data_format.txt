@@ -1,0 +1,24 @@
+# Discover what is missing from your dataset
+  + Hypothesis
+   - A theory or an explanation, based on evidence, that is not yet proved true
+
+  + Questions during the discovering process
+   - How can I break this data into smaller groups for better understanding
+   - How can I prove my hypothesis
+   - In its current form, can this data give me the answer I need?
+
+  + Organize of alter data
+   - Regroup entries into months/years or age ranges
+   - Group customer ages into age ranges
+   - Combine or split data columns
+   - Change date formats or time zones
+
+# Reference guide: Datetime manipulation
+
+# Date string manipulations with Python
+
+
+
+
+
+
