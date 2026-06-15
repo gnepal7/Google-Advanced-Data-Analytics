@@ -1,0 +1,82 @@
+# Welcome to module 2
+  + What you will learn
+   - Data types and data sources
+   - Discovering
+   - Structuring
+   - Formatting
+   - Workplace skill for PACE
+
+# Understand data to drive value
+
+# Where the data comes form
+  + Understanding raw data
+   - Data sources
+     . The location where data generates
+     . Report from a computer system
+     . Selection from a large online database
+     . Data table that has been manually entered
+   - Data formats
+    . Tabular files
+    . XML files
+    . CSV files (Comma seperated Values)
+    . Excel files
+    . DB files
+    . JSON files (JavaScript Object Notation)
+    . HTML files
+    . Audios
+    . Videos
+   - Data types
+    . First-party data
+     => Data that was gathered from inside your own organization
+    . Second-party data
+     => Outside from organization but directly from valid source
+    . Third-party data
+     => Gathered from Outside organization and aggregated
+    > Geographic
+    > Demographic
+    > Numeric
+    > Time-based
+    > Financial
+    > Qualitative
+   - Python functions
+
+# Reference guide: Import datasets with Python
+  + How to import a dataset from a CSV file
+   - with open('file_path/file_name', mode=)
+   - Options:-
+    . 'r' – read
+    . 'w' – write
+    . 'a' – append
+    . '+' – create new file
+
+  + Importing a CSV file using pandas
+  - import pandas as pd
+    df = pd.read_csv('example_filepath/file')
+
+  + How to import data by connecting to a database
+   - Downloading data from BigQuery
+    . Access BigQuery
+      https://cloud.google.com/bigquery/docs/sandbox
+    . Perform a query
+   - Using notebooks outside of BigQuery
+   
+# Reference guide: Pandas methods for the discovery of a dataset
+ - DataFrame.head() :- Displays the first n rows of the dataframe
+ - DataFrame.info(X) :- Displays a summary of the dataframe
+ - show_counts=True with other functions :- Returns the count of non-null Values
+ - DataFrame.describe() :- Displays a descriptive statistics of entire dataset
+ - df.shape :- Returns a tuple representing the dimensions of the dataframe
+
+# EDA using basic data functions with Python
+  + Python libraries used for this dataset
+   - Pandas
+   - Numpy
+   - Matplotlib.pyplot
+   > df.head(10)
+   > df.info()
+
+   Python methods for discovering:
+    . describe()
+    . shape()
+    . size
+    . sample()
