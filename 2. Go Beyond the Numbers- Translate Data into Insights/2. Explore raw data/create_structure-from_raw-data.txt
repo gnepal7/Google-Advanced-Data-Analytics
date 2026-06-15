@@ -1,1 +1,75 @@
+# Use structuring methods to establish order in your dataset
+  + Sorting
+  + Extracting
+  + Filtering
+  + Slicing
+  + Grouping
+  + Joining
 
+# Reference guide: Pandas tools for structuring a dataset
+ + Combine data:- 
+  - df.merge()
+    df1.merge(df2, how=‘inner’, on=[‘month’,’year’])
+  - pd.concat()
+    df3 = pd.concat([df1.drop(['column_1','column_2'], axis=1), df2])
+  - df.join()
+    df1.set_index('key').join(df2.set_index('key'))
+
+  + Extract or select data
+   - df[[columns]]
+     print(df)
+     print()
+     df[['animal', 'legs']]
+   - df.select_dtypes()
+     print(df)
+     print()
+     df2 = df.select_dtypes(include=['int64'])
+     df2
+
+  + Filter data
+   - df[condition]
+     print(df)
+     print()
+     df[df['class']=='Aves']
+
++ Sort data
+ - df.sort_values()
+   print(df)
+   print()
+   df.sort_values(by=['legs'], ascending=False)
+
++ Slice data 
+ - df.iloc[]
+   df.iloc[5:10, 2:] 	               → selects only rows 5 through 9, at columns 2+ 
+   df.iloc[5:10] 		                 → selects only rows 5 through 9, all columns
+   df.iloc[1, 2] 		                 → selects value at row 1, column 2
+   df.iloc[[0, 2], [2, 4]] 	        → selects only rows 0 and 2, at columns 2 and 4
+ - df.loc[]
+   print(df)
+   print()
+   df.loc[:, ['color', 'class']]
+
+# EDA structuring with Python
+  - Box plot
+  - Mearging
+
+# Histograms
+  + Introduction to histograms
+   - Histograms use bars to show data distribution, frequency, spread, center, and          possible outliers.
+  + The importance of histograms
+   - Histograms visualize data distribution, helping identify patterns, trends, and         outliers.
+   - They support statistical analysis across finance, healthcare, engineering, and         social sciences.
+  + How to interpret histograms
+   1. Symmetric :- bell-shaped, showing data evenly distributed around the mean.
+   2. Skewed :- A right-skewed histogram has a longer right tail and more left-side                  data points.
+              A left-skewed distribution has a longer tail on the left side,                         indicating more data points on the right side.
+   3.  Bimodal: has two distinct peaks, indicating that the data has two modes.
+   4. Uniform: has a flat distribution, indicating that all data points are evenly                   distributed.
+   - Use plt.hist() to create histogram
+    plt.hist(df['seconds'], bins=range(40, 101, 5))
+    plt.xticks(range(35, 101, 5))
+    plt.yticks(range(0, 61, 10))
+    plt.xlabel('seconds')
+    plt.ylabel('count')
+    plt.title('Old Faithful geyser - time between eruptions')
+    plt.show();
