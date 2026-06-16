@@ -1,0 +1,65 @@
+# Sort numbers versus names
+  + Way to work with change categorical data:
+   1. Dummy variables:-
+    - Variables with values of 0 or 1, which indicate the presence or absence of something.
+   2. Label encoding:- 
+    - Data transformation technique where each category is assigned a unique number instead of 
+      a qualitative value 
+    - Convert such type into number (e.g - student rank into 1, 2, 3, ...)
+
+# Label encoding in Python
+  + Heatmap
+   - A type of data visualization that depicts the magnitude of an instance or set of 
+     values based on two colors.
+
+# Other approaches to data transformation
+ - Label encoding 
+  . May introduce unintended relationships between the categorical data in your dataset.
+ - One-hot encoding
+  . This creation of dummies is called one-hot encoding
+
+  + Label encoding or one-hot encoding: How to decide? 
+   - Use label encoding when: 
+    . There are a large number of different categorical variables — because label encoding uses far less data than one-hot encoding
+    . The categorical values have a particular order to them (for example, age groups can be grouped as youngest to oldest or oldest to youngest)
+    . You plan to use a decision tree or random forest machine learning model
+   - Use one-hot encoding when: 
+    . There is a relatively small amount of categorical variables — because one-hot encoding uses much more data than label encoding. 
+    . The categorical variables have no particular order
+    . You use a machine learning model in combination with dimensionality reduction (like Principal Component Analysis (PCA))
+
+# Reference guide: Data cleaning in Python 
+  + Missing data
+    - df.info() : returns a concise summary of a dataframe
+      print(df)
+      print()
+      df.info()
+    - pd.isna() / pd.isnull() : returns a same-sized Boolean array indicating whether each value is null (you can also use pd.isnull() as an alias)
+      print(df)
+      print('\n After pd.isnull(): \n')
+      pd.isnull(df)
+    - pd.notna() / pd.notnull() : returns a same-sized Boolean array indicating whether each value is NOT null (you can also use pd.notnull() as an alias).
+      print(df)
+      print('\n After notnull(): \n')
+      pd.notnull(df)
+    - df.fillna() : fills in missing values using specified method
+      print(df)
+      print('\n After fillna(): \n')
+      df.fillna(2)
+    - df.replace() : replaces specified values with other specified values
+      print(df)
+      print('\n After replace(): \n')
+      df.replace('Aves', 'bird')
+    - df.dropna() : removes rows or columns that contain missing values
+      print('Original df: \n \n', df)
+      print('\n After dropna(axis=0): \n')
+      print(df.dropna(axis=0))
+      print('\n After dropna(axis=1): \n')
+      print(df.dropna(axis=1))
+    - df.describe() : returns general statistics about the dataframe
+    - sns.boxplot() : generates a box plot. Data points beyond 1.5x the interquartile range are considered outliers.
+    - df.astype() : allows to encode its data as a specified dtype. 
+    - Series.cat.codes : returns the numeric category codes of the series
+    - pd.get_dummies() : converts categorical values into new binary columns-one for each different category
+    - LabelEncoder() : A transformer from scikit-learn.preprocessing, encodes specified categories or labels with numeric codes
+    
