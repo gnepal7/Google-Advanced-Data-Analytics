@@ -16,9 +16,3 @@
 # Reference guide: Datetime manipulation
 
 # Date string manipulations with Python
-
-
-
-
-
-

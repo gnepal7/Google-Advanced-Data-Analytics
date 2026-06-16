@@ -1,0 +1,43 @@
+# Welcome to module 3
+  + What you'll learn
+   - Missing values
+   - Outliers
+   - Transforming categorical into numerical data
+   - Input validation
+
+# Methods for handling missing data
+  + Missing data are often encoded as:
+   - N/A
+   - Nan('Not a number')
+   - [blank]
+  + What to do with missing data:
+   - Request the missing values to be filled by owner of the data
+   - Delete the missing column(s), row(s), or value(s)
+   - Create a NaN category
+   - Derive new representative value(s)
+    . Forward filling
+    . Backward filling (backfilling)
+    . Deriving mean values
+    . Deriving median values
+
+# Data deduplication with Python
+  + Identifying duplicates
+   - print(df)
+     print()
+     print(df.duplicated())
+
+   - print(df)
+     print()
+     print(df.duplicated(subset=['type'], keep='last'))
+
+  + Decision time: To drop or not to drop?
+   - 1. Deciding to drop
+   - 2. Deciding to NOT drop
+    - df.drop_duplicates()
+    - print(df)
+      df = df.drop_duplicates(subset='style')
+      df = df.drop_duplicates(subset=['style', 'rating'])
+      print()
+      print(df)
+
+# Work with missing data in a Python notebook
