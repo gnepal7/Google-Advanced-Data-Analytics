@@ -1,0 +1,22 @@
+# Welcome to module 4
+
+# Tableau Public overview
+  + Reviewing the fundamentals of Tableau Public
+   - Data source page
+   - Tableau Public Web Authoring
+   - set up Tableau public profile:
+    https://www.tableau.com/community/blog/2022/9/beginners-guide-tableau-public
+   . Tableau Public should only be used for analyzing and sharing public data
+
+   - Data design page
+
+# How to sign on to Tableau Public
+
+# The visualization life cycle
+  - Making changing and using is the part of process
+
+# Download your datasets and begin presenting with Tableau
+
+# Follow-along guide: Work with Tableau, Part 1
+
+# Work with Tableau, Part 1
