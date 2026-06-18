@@ -1,0 +1,77 @@
+# Measures of central tendency
+  + Measures of central tendency
+    - Values that represent the center of a dataset
+  + Measures of dispersion
+    - Values that represent the spread of a dataset
+
+  + Measures of center tendency are:
+    1. Mean
+      - Average values of a dataset
+      mean = sum of all values / total number of all values
+    2. Median
+      - Middle values of a dataset
+      median = 1, 5, 8, 9, 10 => 8
+    + When to use median of mean:
+      - If outliers, use median
+      - If no outliers, use mean
+    3. Mode
+      - The most frequently occuring value in a dataset
+
+# Measures of central tendency: The mean, the median, and the mode
+  + When to use the mean, the median, and the mode 
+  + Mean versus median
+   . Mean and median both measure central tendency.
+   . Mean is sensitive to outliers in data.
+   . Median is better when outliers are present.
+  + Mode
+   . Mode identifies the most frequently occurring category.
+   . Useful for analyzing categorical survey response data.
+
+# Measures of dispersion
+  + Range
+    - The difference between the largest and smallest value in a dataset.
+    : 77, 74, 72, 71, 69, 72 => 77-67 = 10
+  + Standard deviation
+    - Measures how spread out your values are from the mean of 
+      your dataset
+    - Variance :- The average of the squared difference of each
+                  data point from the mean
+    - Formula:-
+      s = with picture
+
+# Measures of dispersion: Range, variance, and standard deviation
+  + Range 
+    - The range is the difference between the largest and smallest value in a dataset.
+  + Variance
+    - Variance measures how spread out data values are.
+    - Variance is the square of standard deviation.
+  + Standard deviation
+    - Standard deviation measures data spread around the mean.
+    - Larger values mean more spread; smaller values mean less spread.
+
+# Measures of position
+  - Determine the position of a value in relation to other values
+    in a dataset
+  + Measures of position:
+    - Percentiles
+      . The value below which a percentage of data falls
+    - Quartiles
+      . Divides the values into 4 equal dataset, each include 25%
+    - Interquartile range (IQR)
+      . The distance between the first quartile(Q1) and 3rd quartile(Q3)
+    - Five number summary
+      . The minimum
+      . The first quartile (Q1)
+      . The median, or second quartile(Q2)
+      . The third quartile
+      . The maximum
+
+# Measures of position: Percentiles and quartiles
+  + Percentiles
+    - A percentile is the value below which a percentage of data falls. 
+    - Percentiles divide your data into 100 equal parts. 
+    - Percentiles compare a value with others in a dataset.
+    - A 25th percentile value is higher than 25% of data.
+  + Quartile
+
+# Alok: Statistics as the foundation of data-driven solutions

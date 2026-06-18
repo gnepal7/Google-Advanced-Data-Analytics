@@ -1,0 +1,76 @@
+# Welcome to module 2
+  + Probability
+    - The branch of mathematics that deals with 
+      measuring and quantitying uncertainity.
+    - Types of probability 
+    - Basic rules of probability
+    - Conditional probability
+    - Baye's theorem
+    - Probability distributions
+    - Discrete probability distributions
+    - Continuous probability
+    - Z-scores
+    - SciPy 
+
+# Objective versus subjective probability
+  + Probability use cases:
+    - A company sill sell a certain amount of product in a 
+      given time period
+    - A financial investment will have a positive return
+    - A political candidate will will an election
+    - A medical test will be accurate
+  + Types of Probability:
+    - Objective 
+      :- Based on statistics, experiments, and mathematical measerements.
+      > Classical :- Based on formal reasoning about events with 
+        equally likely outcomes.
+        => CP = number of desired outcomes / total number of possible outcomes
+      > Empirical :- Based on experimental or historical data
+        => EP = number of times a specific event occurs / total number of events
+    - Subjective 
+      :- Based on personal feelings, experience, or judgement
+
+# The principles of probability
+  - oraginated on analysis if games, and so on.
+  + Events in probability
+   0.05 = 5%
+   0.95% = 95%
+  - Probability measures likelihood of random events.
+  + Random experiment
+    - A process whose outcome cannot be predicted with certainity.
+    - Outcomes of result depends on chance.
+
+# Fundamental concepts of probability
+  + Probability fundamentals 
+    - Foundational concepts: 
+      . Random experiment
+      . Outcome
+      . Event 
+  + The probability of an event  
+    - If the probability of an event equals 0, there is a 0% chance that the event will occur. 
+    - If the probability of an event equals 1, there is a 100% chance that the event will occur. 
+
+# The basic rules of probability and events
+  + Basic rules of probability
+    - Complement rule
+      . The event not occuring, in sense of opposite event will occur.
+      P(A') = 1 - P(A)
+    - Addition rule
+      => Mutually exclusive events : two events are mutually exclusive if 
+         they cannot occur at the same time.
+         P(A or B) = P(A) + P(B)
+    - Multiplication rule
+      => Independent events : Two events are Independent if the occurrence of one event
+         does not change the probability of the other event.
+         P(A and B) = P(A) * P(B)
+    . P(A) = probability of event A
+    . P(B) = probability of event B
+    . P(A') = probability of not event A
+  + Types of events
+
+# The probability of multiple events
+
+
+
+
+

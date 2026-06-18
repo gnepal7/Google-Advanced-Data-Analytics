@@ -1,0 +1,84 @@
+# Introduction to course 3
+  + Statistics
+   - The study of the collection, analysis, and interpretation of data.
+  + Data professionals use statistics to predict:
+   - Future sales revenue
+   - The success of a new ad campaign
+   - The rate of return on a financial investment
+   - The number of downloads for a new app
+  + Econometrics
+    - A branch of economics that uses statistics to analyze economic problems
+
+# Helpful resources and tips
+
+# Evan: Engage and connect
+  + Tips for starting a career in data analytics
+    - Ba able to present your results
+    - Master the basics, and don't try to go too fast
+    - Meet other people in the field
+
+# Course 3 overview
+
+# Welcome to module 1
+
+# The role of statistics in data science
+  + Data professionals use statistics to analyze data in:
+    1. Business
+    2. Medicine
+    3. Science
+    4. Engineering
+    5. Government
+    6. More...
+
+  + Data professionals use statistical methods to:
+    1. Identify meaningful patterns and relationships in data
+    2. Analyze and quantify uncertainity
+    3. Generate insights from data
+    4. Make informed predictions about the Future
+    5. Solve complex problems
+  + Statistics contepts:
+    1. Probability
+    2. Average
+    3. Margin of error
+    4. Percentile
+    5. Median
+  + methods
+    - Hypothesis testing
+    - Classification
+    - Regression
+    - Time series analysis
+
+# Statistics in action: A/B testing
+  + A/B testing
+    - A way to compare two version of something to find out which
+      version performs better
+
+  + A/B testing steps:
+    - Analyzes a small group of users
+     . Subset of a large population
+     => Inferential statistics :- Make inferences about a dataset based on 
+        a sample of the data
+     => Sampling :- The process of selecting a subset of data from a population.
+    - Decide on the sample size
+     => Confidence interval :- A range of values that describes the 
+        uncertainity surrounding an estimate
+    - Determine the statistical significance
+     => Statistical significance :- The claim that the results of a test or 
+        experoment are not explainable by chance alone.
+
+# Descriptive statistics versus inferential statistics
+  + Descriptive
+   - Describe or summarice the main features of a dataset.
+   - Forms of descriptive statistics
+    . Visuals, like graphs, and tables
+    . Summary stats :- Mean, median or avarage values
+  + Inferential
+   - Make inferences about a dataset based on a sample of the data
+  + Population :- Every possible element that you are interested in measuring.
+  + Sample :- Subset of a population
+  + Statistical population:-
+    1. People
+    2. Objects
+    3. Events
+  + Representative sample :- A sample that accurately reflects the population.
+  + Parameter :- A characteristic of a population

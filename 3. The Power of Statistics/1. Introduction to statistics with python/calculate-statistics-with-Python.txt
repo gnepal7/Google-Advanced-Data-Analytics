@@ -1,0 +1,24 @@
+# Compute descriptive statistics with Python
+  + Descriptive statistics:
+    - Measures of central tendency
+    - Measures of dispersion
+    - Measures of position
+  + EDA
+    - Discovering
+    - Cleaning
+  + describe() is used for numeric:
+    - mean
+    - median
+    - standard deviation
+    - min
+    -max
+  + describe() is used for categorical data
+    - 
+
+
+
+
+
+
+
+
