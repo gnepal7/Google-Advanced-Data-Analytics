@@ -1,0 +1,101 @@
+# Welcome to module 3
+  + Sampling
+    - The process of selecting a subset of data from a population.
+  + Population 
+    - Object 
+    - People
+    - Goods
+    - Many more
+
+# Cliff: Value everyone's contributions
+
+# Introduction to sampling
+  + Types of statistics
+    - Descriptive :- Summarize the main features of a dataset.
+    - Infrencitl :- Use sample data to draw conclusions about a 
+      larger population.
+    - Sampling us useful:
+      . Requires less time
+      . Saves money and resources
+      . More practical than analyzing and entire population
+    - Representative sample :- Accurately reflects the 
+      characteristics of a population.
+
+# The relationship between sample and population
+  + Population and Sample 
+    - A population might be the set of:
+      . All students at a university
+      . All the cell phones ever manufactured by a company
+      . All the forests on Earth
+    - Samples drawn from the above populations might be:
+      . The math majors at the university
+      . The cell phones manufactured by the company in the last week
+      . The forests in Canada
+
+# The sampling process
+  1. Identify the target population
+    - The complete set of elements that you're interested in knowing
+      more about
+    - It is general
+  2. Select the sampling frame
+    - A list of all the items in your target population
+    - It is specific
+  3. Choose the sampling method
+    - Probability sampling :- Uses random selection to generate a sample
+    - Non-probability samplint :- Based on convenience or personal preference
+    - Probability sampling uses random selection for inclusion.
+    - Each population element has equal chance, improving representativeness
+  4. Determine the sample size
+    - The number of individuals or items chosen for a study or experiment
+    - The more sample size, the more accurate result will occurs
+  5. Collect the sample data
+    - Survey collects customer feedback on refrigerator digital features
+    - Results help stakeholders decide future product investments and features
+
+# The stages of the sampling process
+
+# Compare sampling methods
+  + Probability sampling methods:
+    1. Simple random sampling
+      - Every member of a population is selected randomly and has an equal
+        chance of being chosen.
+      . Representative
+      . Aviod bias
+    2. Stratified random sampling
+      - Divide a population into groups and randomly select some members
+        from each group to be in the sample.
+      - These groups are called strata.
+    3. Cluster random sampling
+      - Divide a population into clusters, randomly select certain clusters,
+        and include all members from the chosen clusters in the sample
+      . Sample will be selected by each clusters
+    4. Systematic random sampling
+      - Put every member of a population into an ordered sequence. Then, you choose a 
+        random starting point in the sequence and select members for your 
+        sample at regular intervals.
+      . Representative
+      . Quick and convenient
+
+# Probability sampling methods
+
+# The impact of bias in sampling (Non-probability)
+  + Sampling bias
+    - When a sample is not representative of the population as a whole
+  + Non-probability sampling methods:
+    1. Convenience sampling
+      - choose members of a population that are easy to contact or reach
+      - Undercoverage bias :- When some members of a population are 
+        inadequately represented in the sample.
+    2. Voluntary response sampling
+      - Consists of members of a population who volunteer to participate in a study.
+      - Nonresponse bias :- When certain groups of people are less likely to provide responses.
+    3. Snowball sampling
+      - Researchers recruit initial participants to be in a study and then ask them
+        to recruit other people to participate in the study.
+    4. Purposive sampling
+      - Researchers select participants based on the purpose of their study.
+
+# Non-probability sampling methods
+  - Non-probability sampling is useful with limited time and resources.
+  - Best for exploratory research, not population-wide conclusions.
+  - Watch for sampling bias and ensure fairness throughout analysis.

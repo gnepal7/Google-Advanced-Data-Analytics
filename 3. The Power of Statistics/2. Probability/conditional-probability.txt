@@ -1,0 +1,56 @@
+# Conditional probability
+  - The probability of an event occuring given that another event 
+    has already occured.
+  + Can be used in:
+    - Science
+    - Finance
+    - Machine learning
+  + Dependent events
+    - Two events are dependent if the occurance of one event changes
+      the probability of the other event
+
+  + Conditional probability:
+    P(A and B) = P(A) * P(B|A) :probability of event B given event A
+    P(B|A): probability of B depends on A happening
+    P(B|A) = P(A and B) / P(A)
+
+# Calculate conditional probability for dependent events
+  + Conditional probability 
+    - Conditional probability applies to two or more dependent events.
+    - Dependent events 
+      . Independent events do not affect each other's outcomes.
+      . Dependent events change the probability of another event.
+      . Second event may be conditional on the first.
+
+# Discover Bayes' theorem
+  + Prior probability
+    - The probabilityof an event before new data is collected.
+  + Posterior probability
+    - The updated probability of an event based on new data
+  + Bayesian statistics (Bayesian inference)
+    - A powerful method for analyzing and interpreting data in 
+      modern tata analytics
+  + Bayes's theorem application are found in:
+    - Artificial intelligence
+    - Medical testing
+    - Financial institutions
+    - Online retailers
+    - Marketers
+    P(A) = Prior probability
+    P(A|B) = Posterior probability
+
+# The expanded version of Bayes’s theorem
+  + False positive
+    - Test result that indicates something is present when it really is not.
+  + False negative
+    - Test result that indicates something is not present when it really is.
+
+# Calculate conditional probability with Bayes's theorem
+  + Bayes's theorem
+    - Thomas Bayes, an 18th-century mathematician from London, England.
+  + Posterior and prior probability
+    - Prior probability is the probability before new data.
+    - Posterior probability is updated using new data.
+    - Bayes' theorem updates prior probability to posterior probability.
+    P(B|A): Likelihood
+    P(B): Evidence

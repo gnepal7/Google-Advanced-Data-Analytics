@@ -1,0 +1,64 @@
+# Introduction to probability distributions
+  + Probability distributions
+    - Describes the likelihood of the possible outcomes of 
+      a random event.
+  + Random variable
+    - Represents the values for the possible outcomes
+      of a random event.
+    - Discrete
+      . Has a countable number of possible values
+      . Represents discrete random variables
+    - Continuous random variable
+      . Takes all the possible values in some range of numbers.
+      . Represents continuous random variables
+    - Discrete or Continuous variables
+      . COUNT the number of outcomes = discrete
+      . MEASURE the outcome = continuous
+
+    - Sample space
+      . The set of all possible values for a random variable.
+
+# The binomial distribution
+  + Binomial distribution
+    - A discrete distribution that modelr the probability of events with
+      only two possible outcomes, success or failure.
+    - Each event is independent
+    - Every events has same possibility to event occuring.
+  + Random experiment
+    - A process whose outcome cannot be predicted with certainity
+    . The experiment can have more than one possible outcome
+    . You can represent each possible outcome in advance
+    . The outcome of the experiment denends on chance
+  + Binomial experiment
+    . The experiment consists of a number of repeated trials
+    . Each trial has only two possible outcomes
+    . The probability of success is the same for each trial
+    . Each trial is independent
+
+# The Poisson distribution
+  + Poisson distribution
+    - Models the probability that a certain number of events will 
+      will occur during a specific time period
+    - Poisson experiment
+      . The numbers of event in the experiment can be counted
+      . The mean number of events that occur during a specific
+        time period is known
+      . Each event is independent
+
+# Discrete probability distributions
+  + Discrete probability distributions 
+    - Uniform distribution
+      . Uniform distribution has outcomes with equal probabilities.
+      . Each die roll outcome has a 1/6 probability.
+      . Histograms can visualize probability distributions.
+    - Binomial distribution
+      . Each distribution has equal possibility to outcomes, 50%.
+      . These outcomes are mutually exclusive and cannot occur at the same time
+    - Bernoulli distribution
+      . Bernoulli distribution has only two possible outcomes.
+      . It models a single trial, unlike binomial distribution.
+      . A single coin toss is a Bernoulli trial.
+    - Poisson distribution
+      . Poisson distribution models event counts over a time period.
+      . It can also model events in space or distance.
+      . It represents a Poisson random experiment.

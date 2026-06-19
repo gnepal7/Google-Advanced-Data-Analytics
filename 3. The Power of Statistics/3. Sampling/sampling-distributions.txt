@@ -1,0 +1,21 @@
+# How sampling affects your data
+  + Statistic
+    - A charecteristic of a sample
+  + Parameter
+    - A charecteristic of a population
+  + Point estimate
+    - Uses a single value to estimate a population parameter.
+  + Sampling distribution
+    - A probability distribution of a sample statistis
+  + Samplint variability
+    - How much an estimate varies between samples  
+  + Standard error
+    - Larger standard error = sample means and more spread out
+    - Smaller standard error = sample means are closer together
+    . As sample size gets larger, standard error gets smaller
+
+# The central limit theorem
+
+
+
+

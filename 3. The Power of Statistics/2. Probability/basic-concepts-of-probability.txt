@@ -69,8 +69,11 @@
   + Types of events
 
 # The probability of multiple events
-
-
-
-
-
+  + Types of events
+    - Mutually exclusive events :- can not occur at the same time.
+    - Independent events :- One event does not affect the outcome of the other event
+  + Three basic rules 
+    - Complement rule
+      . Deals with mutually exclusive events.
+    - Addition rule (for mutually exclusive events)
+    - Multiplication rule (for independent events)

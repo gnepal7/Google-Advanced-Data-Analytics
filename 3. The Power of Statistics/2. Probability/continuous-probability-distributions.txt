@@ -1,0 +1,42 @@
+# The normal distribution
+  + Normal distribution
+    - A continuous probability distribution that is symmetrical
+      on both sides of the mean and bell-shaped
+    - Normal distributions have the following features:
+      . The shape is bell curve
+      . The mean is located ad the center of the curve
+      . The curve is symmetrical on both sides of the center
+      . The total area under the curve equals 1
+    
+
+# Model data with the normal distribution
+  + Continuous probability distributions   
+    - Probability Density and Probability 
+      . Probability Mass Functions (PMFs) represent discrete random variables
+      . Probability Density Functions (PDFs) represent continuous random variables 
+      . These can be represented as an equation or a graph.
+      . Continuous variables can have infinitely many possible values.
+      . Exact single values have essentially zero probability.
+      . Probabilities apply to ranges or intervals of values.
+      . Continuous distributions use curves to represent probabilities.
+      . Interval probability equals the area under the curve.
+    - The normal distribution  
+    - The empirical rule 
+      . 68% of values fall within 1 standard deviation of the mean
+      . 95% of values fall within 2 standard deviations of the mean
+      . 99.7% of values fall within 3 standard deviations of the mean
+
+# Standardize data using z-scores
+  + Z-score
+    - A measure of how many standard deviations below or above
+      the population mean a data point is
+    . The z-score is 0 if the value is equal to the mean
+    . The z-score is positive if the value is greater then the mean
+    . The z-score is negative if the value is less than the mean
+  + Standardization
+    - The process of putting different variables on the same scale
+  + Anomaly detection application
+    . Fraud in financial transactions
+    . Flaws in manufacturing products
+    . Instrusions in computer networks
+    z = score(X) - mean(H) / sigma(standard deviation)
