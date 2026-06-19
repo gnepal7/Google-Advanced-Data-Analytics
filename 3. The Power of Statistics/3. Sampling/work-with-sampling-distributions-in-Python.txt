@@ -1,1 +1,48 @@
+# Sampling distributions with Python 
+  + sample() function  
+    - sample(n, replace, random_state)
+    - n refers to the desired sample size
+    - replace indicates whether you are sampling with or without replacement
+    - random_state refers to the seed of the random number
+
+    - sampling with replacement
+      . When a population element cen be selected more than one time
+    - sampling without replacement
+      . When a population element can be selected only one time
+    - Random seed
+      . A starting point for generating random numbers
+
+# Glossary terms from module 3 
+  - Central limit theorem: Sampling distribution of the mean approaches normality as sample         size increases.
+  - Cluster random sample: Randomly select clusters and include all members from chosen             clusters.
+  - Convenience sample: Selects easily accessible population members.
+  - Descriptive statistics: Summarizes and describes key features of a dataset.
+  - Inferential statistics: Uses sample data to draw population conclusions.
+  - Non-probability sampling: Sampling based on convenience or researcher judgment, not             randomness.
+  - Nonresponse bias: Occurs when certain groups are less likely to respond.
+  - Point estimate: Single value used to estimate a population parameter.
+  - Population: Entire group of elements being studied.
+  - Population proportion: Percentage of population sharing a specific characteristic.
+  - Probability sampling: Sampling method using random selection.
+  - Purposive sample: Participants selected based on study purpose.
+  - Random seed: Starting value for generating reproducible random numbers.
+  - Representative sample: Accurately reflects population characteristics.
+  - Sample: Subset selected from a population.
+  - Sample size: Number of observations included in a study.
+  - Sampling: Process of selecting a subset from a population.
+  - Sampling bias: Sample does not accurately represent the population.
+  - Sampling distribution: Probability distribution of a sample statistic.
+  - Sampling frame: List of all elements in the target population.
+  - Sampling variability: Differences in estimates across samples.
+  - Sampling with replacement: Population elements can be selected multiple times.
+  - Sampling without replacement: Population elements can be selected only once.
+  - Simple random sample: Every population member has an equal selection chance.
+  - Snowball sample: Participants recruit additional participants for the study.
+  - Standard error: Standard deviation of a sample statistic.
+  - Standard error of the mean: Sample standard deviation divided by square root of sample size.
+  - Stratified random sample: Randomly selects members from each population subgroup.
+  - Systematic random sample: Selects members at regular intervals after a random start.
+  - Target population: Complete group researchers want information about.
+  - Undercoverage bias: Some population members are inadequately represented.
+  - Voluntary response sample: Participants self-select to join the study.
 
