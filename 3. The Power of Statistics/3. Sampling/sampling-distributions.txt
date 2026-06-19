@@ -15,7 +15,36 @@
     . As sample size gets larger, standard error gets smaller
 
 # The central limit theorem
+  + Central limit theorem
+    - The sampling distribution of the mean approaches a normal distribution as the sample size       incresses
 
+# Infer population parameters with the central limit theorem 
+  + The central limit theorem 
+    - Larger sample sizes make sampling distributions approach normality.
+    - Sample mean gets closer to population mean as size increases.
+    - Large representative samples estimate population means accurately.
+  + Conditions
+    - Randomization: Every population member has an equal selection chance.
+    - Independence: One observation’s value does not affect another.
+    - Sample size: The sample size needs to be sufficiently large. Depends on the following           factors:
+      . Precision requirement: Larger samples improve normality and estimate accuracy.
+      . Population shape: Bell-shaped populations need smaller samples for normality.
 
+# The sampling distribution of the proportion
+  + Population proportion
+    - The percentage ot individuals or elements in a population that share a certain                  characteristic. 
+    . The more accurate the estimate, the smaller the standard error.
 
-
+# The sampling distribution of the mean
+  + Sampling distribution of the sample mean 
+    - Sampling distribution: Probability distribution of a sample statistic.
+    - Sample statistics: Include mean, median, standard deviation, and range.
+    - Purpose: Estimate population parameters using sample data.
+    - Repeated sampling: Different samples produce different statistic values.
+    - Sampling distribution of mean: Distribution of all sample means.
+  + Standard error
+    - Standard error: Standard deviation of a sample statistic.
+    - Standard error measures sampling variability numerically.
+    - Standard error of the mean measures variability among sample means.
+    - Larger standard error indicates greater spread and variability.
+    - Estimated formula: standard error = s / √n.
