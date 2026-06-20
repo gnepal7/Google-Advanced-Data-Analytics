@@ -1,0 +1,80 @@
+# Two-sample tests: Means
+  + Two-sample t-test for means assumptions
+    - The two samples are independent of each other
+    - For each sample, the data is drawn randomly from a normally distributed population
+    - The population standard deviation is unknown
+  + Hypothesis
+    - Null: There is no difference in the mean time spent on version A and version B
+    - Alternative: There is a difference in the mean time spent on version A and version B
+  + Significance level = 5%
+  + P-value
+    - The probability of observing a difference in your sample means as or more extreme than the
+      difference observed whtn the null hypothesis is true
+  + Draw a conclusion
+    - if p-value < significance level: reject the null hypothesis
+    - if p-value > significance level: fail to reject the null hypothesis
+    . Conclusion : Fail to rejcet the null hypothesis
+
+# One-tailed and two-tailed tests
+  + One-tailed test
+    - One-tailed test: Alternative hypothesis specifies parameter is greater or less.
+    - Left-tailed test: Alternative hypothesis states parameter is less than null value.
+    - Right-tailed test: Alternative hypothesis states parameter is greater than null value.
+  + Two-tailed test
+    - Two-tailed test: Alternative hypothesis states parameter is not equal to null value.
+    - One-tailed tests: Test whether parameter is specifically greater or less.
+    - Symbols: Left-tailed (<), right-tailed (>), two-tailed (≠).
+  + One-tailed versus two-tailed
+    - One-tailed tests provide greater power to detect effects in one direction.
+    - They do not test for effects in the opposite direction.
+    - Consider consequences of missing effects in the untested direction.
+    - One-tailed tests may miss harmful or unfavorable outcomes.
+    - Appropriate when missing opposite-direction effects has minimal consequences.
+    - Useful when only one specific direction is important to test.
+    
+# Two-sample tests: Proportions
+  + Use a two-sample z-test to compare the proportion of :
+    - Defects amont manufacturing products on two assembly lines
+    - Side effects to a new medicine for two trial groups
+    - Support for a new law among voters in two districts
+
+# A/B testing 
+  + A typical A/B test has at least three main features:
+    1. Test design
+    2. Sampling
+    3. Hypothesis testing
+  + Randomized controlled experiment 
+    - A/B test: Basic form of a randomized controlled experiment.
+    - Subjects are randomly assigned to control and treatment groups.
+    - Control group: Not exposed to the treatment.
+    - Treatment group: Exposed to the new change being tested.
+    - Difference between groups measures the treatment's effect.
+    - Keeping treatment as the only difference enables causal conclusions.
+
+# Experimental Design
+  + Define your variables
+    - Independent variable: 
+      > Controlled or changed factor used to investigate its effect on outcomes.
+    - Dependent variable: 
+      > Measured outcome whose value is influenced by the independent variable.
+  + Formulate your hypothesis
+    - Hypothesis: 
+      > Predicts relationship between independent and dependent variables.
+    - Null hypothesis (H₀): 
+      > Assumes no effect or relationship in the population.
+    - Alternative hypothesis (H₁): 
+      > Assumes an effect or relationship exists.
+    + Assign test subjects to treatment and control groups
+      - Controlled experiment: 
+        > Compares treatment and control groups to measure an effect.
+      - Treatment group: 
+        > Exposed to the new change being tested.
+      - Control group: 
+        > Not exposed to the treatment.
+      - Difference in group metrics estimates the treatment’s effect.
+      . Randomization 
+        - Assigns subjects randomly to reduce effects of other factors.
+      . Common methods: 
+        - Completely randomized design and randomized block design.
+        - save it for furture reading.
+
