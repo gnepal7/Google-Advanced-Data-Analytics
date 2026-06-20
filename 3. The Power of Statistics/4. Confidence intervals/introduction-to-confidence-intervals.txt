@@ -1,0 +1,40 @@
+# Welcome to module 4
+  + Confidence interval
+    - A range of values that describes the uncertainity surrounding an estimage.
+  + Frequentist vs. Bayesian
+    - Confidence interval (Frequentist)
+    - Credible interval (Bayesian)
+  
+# Introduction to confidence intervals
+  + Point estimate
+    - Uses a single value to estimate a population parameter
+  + Confidence interval
+    . Sample statistic
+    . Margin of error
+      - The maximum expected difference between a population parameter and a sample estimate.
+      - Formula, margin of error = z-score * SE
+    . Confidence level
+      - Describes the liklihood that a particular sampling method will produce a confidence 
+        interval that includes the population parameter
+      - Common levels are 90%, 95%, and 99%
+
+# Interpret confidence intervals
+  + Confidence level
+    - Expresses the uncertainity of the estimation process.
+
+# Confidence intervals: Correct and incorrect interpretations
+  + Correct interpretation  
+    - Confidence intervals estimate the population mean using sample data.
+    - 95% confidence refers to the method’s long-term success rate.
+    - About 95% of repeated intervals would contain the population mean.
+    - Approximately 5% of intervals would miss the population mean.
+    - Confidence intervals quantify uncertainty caused by random sampling.
+  + Incorrect interpretations
+    - Misinterpretation 1: 95% is not the probability population mean is inside interval.
+    - Reason: Population mean is a fixed constant, not random.
+    - Correct interpretation: 95% of repeated intervals capture the population mean.
+    - Confidence level: Refers to the estimation method’s long-term success rate.
+    - Misinterpretation 2: 95% does not mean population data fall in interval.
+    - Reason: Confidence intervals estimate the mean, not individual data values.
+    - Misinterpretation 3: 95% does not mean sample means fall in interval.
+    - Reason: More than 5% of sample means may lie outside.

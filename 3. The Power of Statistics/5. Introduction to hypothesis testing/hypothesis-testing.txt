@@ -1,0 +1,65 @@
+# Welcome to module 5
+  + Hypothesis testing
+    - A statistical procedure that uses sample data to evalute
+      an assumption about a population parameter.
+  + Statistical significance
+    - The claim that the results of a test or experiment are not
+      explainable by change alone.
+
+# Elea: Keep learning in the ever-changing data space
+
+# Introduction to hypothesis testing
+  + Steps for performing a hypothesis test:
+    1. State the null hypothesis and the alternative hypothesis
+      - Null hypothesis
+        . A statement that is assumed to be true unless there
+          is convincing evidence to the contrary
+      - Alternative hypothesis
+        . A statement that contradicts the null hypothesis, and is accepted
+          as true only if there is convincing evidence for it.
+    2. Choose a significance level
+      - Significance level
+        . The probability of rejecting the null hypothesis when
+          it is true.
+    3. Find the p-value
+      - P-value
+        . The probability of observing results as or more extreme than
+          those observed when the null hypothesis is true
+        . A lower p-value means there is stronger evidence of the 
+          alternative hypothesis.
+    4. Reject or fail to reject the null hypothesis
+      - Drawing a conclusion
+        . if p-value < significance level: reject the null hypothesis
+        . if p-value > significance level: fail to reject the null hypothesis
+
+    + Types of errors in hypothesis testing
+      - Type i error (false positive)
+        . The rejection of a null hypothesis that is actually true
+      - Type ii error (false negative)
+        . The failure to reject a null hypothesis which is actually false
+
+# Differences between the null and alternative hypotheses
+  + Null hypothesis: 
+    - Assumes no effect in population; observed results due to chance.
+    . In statistics, the null hypothesis is often abbreviated as H sub zero (H0). 
+    . When written in mathematical terms, the null hypothesis always includes 
+      an equality symbol (usually =, but sometimes ≤ or ≥). 
+    . Null hypotheses often include phrases such as “no effect,” “no difference,” 
+      “no relationship,” or “no change.” 
+  + Alternative hypothesis: 
+    - Claims an effect exists; data unlikely due to chance.
+    . In statistics, the alternative hypothesis is often abbreviated as H sub a (Ha). 
+    . When written in mathematical terms, the alternative hypothesis always 
+      includes an inequality symbol (usually ≠, but sometimes < or >). 
+    . Alternative hypotheses often include phrases such as “an effect,” 
+      “a difference,” “a relationship,” or “a change.”
+
+# Type I and type II errors
+  + Type i error:
+    - Type I error occurs when true null hypothesis is incorrectly rejected.
+    - It is a false positive, concluding an effect when none exists.
+    - Alpha (α) is the probability of Type I error, usually 0.05.
+  + Type ii error:
+    - Type II error occurs when false null hypothesis is not rejected.
+    - It is a false negative, missing a real effect in data.
+    - Beta (β) is Type II error probability; power equals 1 − β.

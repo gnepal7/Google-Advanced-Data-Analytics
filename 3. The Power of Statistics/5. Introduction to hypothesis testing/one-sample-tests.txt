@@ -1,0 +1,19 @@
+# One-sample test for means
+  + One-sample test
+  - Determines whether or not a population parameter like a mean 
+    or proportion is equal to a specific value.
+  + Two-sample test
+    - Determines whether or not two population parameters such as two
+      means or two proportions are equal to each other
+
+  + One-sample z-test assumptions
+    - The data is a random sample of a normally distributed population
+    - The population standard deviation is known
+  + Test statistic 
+    - A value that shows how closely your observed data matches the
+      distribution expected under the null hypotheses
+  + Z-score
+    - A measure of how many standard deviations below or above
+      the population mean a data point is
+
+# Determine if data has statistical significance

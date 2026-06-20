@@ -1,0 +1,33 @@
+# Construct a confidence interval for a proportion
+  1. Identify a sample statistic
+    - proportion
+  2. Choose a confidence level
+    - 95%
+  3. Find the margin of error
+    - margin of error = z-score * SE => 1.96 in 2nd standard deviation
+      > 1.96 * 0.05 = 0.098
+  4. Calculate the intervel
+    - Upper limit = sample proportion + margin of error
+                  0.55 + 0.098 = 0.648 = 64.8%
+    - Lower limit = 0.55 - 0.098 = 0.452 = 45.2%
+    - Confidence interval:
+      95% Cl [45.2, 64.8]
+
+# Construct a confidence interval for a mean
+  1. Identify a sample statistic
+    - mean
+  2. Choose a confidence level
+    95%
+  3. Find the margin of error
+    z-score * SE = 196 * .015 = 0.294
+  4. Calculate the intervel
+    [20:12, 20:48]
+
+# Construct a confidence interval for a small sample size
+  + Large versus small sample sizes
+    - Large sample: Z-scores
+      . Large samples use z-scores to calculate margin of error.
+      . Central limit theorem makes sample means approximately normally distributed.
+    - Small sample: T-scores 
+      . Small sample sizes use the t-distribution instead of the normal distribution.
+      . Use t-scores when data is approximately normally distributed.
