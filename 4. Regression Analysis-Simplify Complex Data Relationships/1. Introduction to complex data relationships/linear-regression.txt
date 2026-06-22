@@ -1,1 +1,47 @@
+# Introduction to linear regression 
+  + line
+    - A collection of an infinite numbers of points extending in two opposite directions.
+  + Linear regression
+    - A techniques that estimates the linear relationship between a continuous dependent 
+      variable and one or more independent variables
+  + Dependent variable (Y)
+    - The variable a given model estimates, also reffered to as a response or outcome          variable
+  + Independent variable (X)
+    - A variable that explains trends in the dependent variable, also reffered to as an        explanatory or predictor variable
+    Y = slope * X + intercept
+  + Slope
+    - The amount that y increases or decreases per one-unit increase of X
+  + Intercept 
+    - The value of y, the dependent variable, when x the independent variable, equals 0
+  + Positive correlation
+    - A relationship between two variables that tend to increase or decrease together
+  + Negative correlation
+    - An inverse relationship between two variables, where one variable increases, the 
+      other variable tends to decrease, and vice versa
+  + Causation
+    - A cause-end-effect relationship where one variable directly causes the other to         change in a particular way 
+    - Articulating correlation is not causation
+  => Linear regression overview
+    - Linear regression is a way to model linear relationships.
+    - Dependent variables vary according to independent variables.
+    - The slope identifies how much the dependent variable changes per one-unit change         in the independent variable.
+    - Correlation describes linear relationships between variables.
+    - Correlation is not a causation.
+
+# Mathematical linear regression 
+  + Observed values (actual values)
+    - The existing sample of data
+    - Each data point in the sample is represented by an observed value of the dependent
+      variable and an observed value of the independent variable.
+    - Linear regression equation
+      . H(mieu){Y/X} = B(beta):intercept 0 + B(slope)1 X
+      . Betas (B) are parameters.
+      . Y = B^0 + B^1X
+  + Regression coefficients
+    - The estimated betas in a regression model. Represented as B^i
+  + Loss function
+    - A function that measuress the distance between the observed values and the model's 
+      estimated values.
+
+
 
