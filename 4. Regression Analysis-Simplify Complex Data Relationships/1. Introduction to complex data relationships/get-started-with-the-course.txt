@@ -1,0 +1,32 @@
+# Regrassion analysis or regrassion models
+  - A group of statistical techniques that use existing data to estimate the relationships between
+    a single dependent variable and one or more independent variables.
+
+# Helpful resources and tips
+
+# Tiffany: Gain actionable insights with regression models
+
+# Course 4 overview
+
+# Welcome to module 1
+  + Will be learned
+    - Regrassion analysis
+    - Simple linear regression
+    - Multiple linear regression
+    - Hypothesis testing
+    - Logistic regression
+
+# PACE in regression analysis 
+  + AI/ML, data life cycle
+  + PACE framework
+    - Plan :- Understand your data in the problem context
+        Contextualize & understand the data and the problem
+    - Analyze :- EDA, check model assumptions & select model
+        Determine if we should move forward with building the model!
+        => Model assumptions
+          - Statements about the data that must be true to justify the user of particular data science
+            texhniques.
+    - Construct :- Construct & evalute model
+        Determine how well your model fits the data
+    - Execute :- Interpret model & share story
+        Descriptions must take into account the context of the data
