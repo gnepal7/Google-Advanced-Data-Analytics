@@ -78,3 +78,4 @@
         - Completely randomized design and randomized block design.
         - save it for furture reading.
 
+# Case study: Ipsos: How a market research company used A/B testing to help advertisers create more effective ads
