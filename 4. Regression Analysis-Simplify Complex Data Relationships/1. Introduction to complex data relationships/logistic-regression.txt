@@ -1,1 +1,17 @@
-
+# Introduction to logistic regression
+  + Logistic regression
+    - A technique that models a categorical dependent based on one or more independent         variables.
+    - Logistic regression model
+    . H(mieu){Y/X} = Prob(Y = 1/X) = p
+  + Link function
+    - A nonlinear function that connects or links the dependent variable to the                independent variables mathematically.
+    . g(p) = B0 + B1X => link function
+  + Linear regression 
+    - Continuous data(i.e book sales - 100, 200, 437 etc.)
+    - Estimating the MEAN of y
+    - H:mieu(Y/X) = B0 + B1X
+  + Logistic regression
+    - Categorical data (i.e newsletter subscription-yes/no)
+    - Estimating the PROBABILITY of an outcome
+    - H(mieu){Y/X} = Prob(Y = 1/X) = p
+      g(p) = B0 + B1X => link function
