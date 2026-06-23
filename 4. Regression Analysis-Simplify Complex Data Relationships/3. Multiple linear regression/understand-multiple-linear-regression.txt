@@ -1,0 +1,13 @@
+# Welcome to module 3
+  + Will be learn
+    - Variable selection
+    - Regularization
+
+# Introduction to multiple regression
+  + Multiple linear regression (multiple regression)
+    - A technique that estimates the relationship between one continuous
+      dependent variable and two or more independent variables
+  => One hot encoding
+  => Interaction terms
+
+# Multiple linear regression scenarios

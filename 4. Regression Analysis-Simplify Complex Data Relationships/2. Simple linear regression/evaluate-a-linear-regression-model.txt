@@ -1,0 +1,36 @@
+# Evaluate uncertainty in regression analysis
+  + Model evaluation
+    - Conficende interval :- A range of values that describes the 
+      uncertainty surrounding an estimate.
+    - Conficende band :- The area surrounding the line that describes the uncertainty
+      around the predicted outcome at avery value of X.
+
+# Interpret measures of uncertainty in regression
+  + Goal of Reading
+    - Regression analysis, specially through confidence intervel, 
+      confidence bands, and p-values.
+  + Interpreting Uncertainty
+
+  => Regression analysis utilizes estimation techniques, so there is always 
+     uncertainty around the predictions.
+  => We can measure uncertainty using confidence intervals, p-values, 
+     and confidence bands.
+  => For every coefficient estimate, we are testing the hypothesis that 
+     the coefficient equals 0.
+
+# Model evaluation metrics
+  + common model evalution metrics
+    - R2 (R square) :- The coefficient of determination
+      => Measures the proportion of variation in the dependent variable, Y,
+         explained by the independent variable(s), X.
+      => Hold-out sample
+        - A random sample of observed data that is not used to fit the model.
+    - Mean squared error(MSE)
+      => Average squared prediction errors; highly sensitive to large errors.
+    - Mean absolute error(MAE)
+      => Average absolute prediction errors; less affected by outliers.
+
+# Evaluation metrics for simple linear regression
+  R2 = The coefficient of determination
+  + formula for finding R square
+    R square (R2) = 1 - Sum of squared rasiduals / Total sum of squares

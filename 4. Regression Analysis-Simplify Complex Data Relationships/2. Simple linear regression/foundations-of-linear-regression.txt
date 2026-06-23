@@ -1,0 +1,39 @@
+# Welcome to module 2
+  + Linear regression
+    - A technique that estimates the linear relationship between a 
+      continuous dependent variable and one or more independent variables.
+    + Simple linear regression
+      - A technique that estimates the linear relationship between one 
+        independent variable, X, and one continuous dependentvariable, Y.
+
+# Jerrod: The incredible value of mentorship
+
+# Ordinary least squares estimation
+  + Best fit line
+    - The line that fits the data best by minimizing some less function or error.
+  + Predicted values
+    - The estimated Y values for each X calculated by a model.
+  + Residual
+    - The differenct between observed or actual values and the predicted
+      valies of the regression line.
+  + Ordinary Least Squares (OLS)
+    - A method that minimizes the sum of squared residuals to estimate 
+      parameters in a linear regression model.
+
+# Explore ordinary least squares
+
+# Correlation and the intuition behind simple linear regression
+  + Correlation
+    1. Correlation measures how two variables move together.
+    2. Strong correlation improves prediction of one variable from another.
+    3. Weak correlation provides little predictive information between variables.
+    4. Linear correlation means variables change together at a constant rate.
+    5. Average measures central tendency using mean, median, or mode.
+    6. Standard deviation measures the spread of data values.
+    7. Pearson’s correlation coefficient (r) ranges from -1 to 1.
+  + Regression
+    1. Without other information, predict using the overall average score.
+    2. The average minimizes prediction error for a random student.
+    3. Additional information can improve prediction accuracy.
+
+    - It always falls in the range of [-1, 1].

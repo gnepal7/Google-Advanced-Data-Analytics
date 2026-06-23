@@ -1,0 +1,15 @@
+# Interpret and present linear regression results
+  + Slope
+    - The amount that Y increases or decreases per one-unit inscrease of X.
+
+# Correlation versus causation: Interpret regression results
+  + What is correlation?
+    - correlation measures the way two variables tend to change together.
+    - Positive correlation is a relationship between two variables that 
+      tend to increase or decrease together.
+    - Negative correlation is an inverse relationship between two variables, 
+      where when one variable increases, the other variable tends to decrease, and vice versa.
+
+  + It’s difficult to claim causation
+    - Causation describes a cause-and-effect relationship where one variable directly 
+      causes the other to change in a particular way
