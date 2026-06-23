@@ -17,9 +17,24 @@
     - Create new variables using existing data.
 
 # Multiple linear regression assumptions and multicollinearity
-
-
-
-
-
-
+  + Multiple linear regression assumptions
+    1. Linearity: Each predictor variable (Xi) is linearly related to the outcome             variable (Y).
+    2. (Multivariate) normality: The errors are normally distributed.*
+    3. Independent observations: Each observation in the dataset is independent.
+    4. Homoscedasticity: The variation of the errors is constant or similar across the         model.*
+    5. No multicollinearity: No two independent variables (Xi and Xj) can be highly            correlated with each other.
+  + Variance Inflation Factors (VIF)
+    - An example of obtaining VIFs for predictor variables.
+      from statsmodels.stats.outliers_influence import variance_inflation_factor
+      X = df[['col_1', 'col_2', 'col_3']]
+      vif = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
+      vif = zip(X, vif)
+      print(list(vif))
+  + What to do if there is multicollinearity in your model
+    - Variable Selection
+    - Forward selection
+    - Backward elimination
+    => Advanced Techniques
+      - Ridge regression
+      - Lasso regression
+      - Principal component analysis (PCA)
