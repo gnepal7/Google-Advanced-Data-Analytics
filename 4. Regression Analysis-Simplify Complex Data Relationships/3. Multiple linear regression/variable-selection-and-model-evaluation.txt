@@ -1,1 +1,92 @@
+# The problem with overfitting
+  + R2 (R Square)
+    - The proportion of variance of the dependent variable, Y, explained by the               independent variable or variables, X.
+  + Overfitting
+    - When a model fits the observed or training data too specifically, and is unable         to generete suitable estimates for the general population.
+  + Adjusted R2(R square)
+    - A variation of R-square regression evaluation metric that penalizes unnecassary 
+      explanatory variables. 0 to 1.
 
+# Underfitting and overfitting
+  + Underfitting
+    - It occurs when a model fails to capture the outcome’s underlying pattern.
+    - Underfitting models typically have a low R-squared value.
+    - Weak relationships between predictors and outcome can cause underfitting.
+    - Additional or different predictors may improve model performance.
+    - Small sample sizes can prevent learning important relationships.
+    - More data may help reduce underfitting problems.
+    - Underfitting models produce unreliable predictions on unseen population data.
+
+  + The difference between training data and test data
+    - Sample data is split into training data and test data.
+    - Training data is used to build the regression model.
+    - Test data evaluates model performance after training.
+    - This process is called holdout sampling.
+    - The test data is also known as validation data.
+    - Holdout sampling tests performance on unseen data.
+    - Records are randomly assigned exclusively to training or test datasets.
+
+  + Overfitting
+    - Overfitting occurs when a model fits training data too specifically.
+    -  Overfitted models perform very well on training data.
+    - Their performance drops significantly on unseen test data.
+    - Comparing training and test performance helps identify overfitting.
+    - Overfitting captures both meaningful patterns and random noise.
+    - Noise represents random variation unrelated to true relationships.
+    - Overfitted models do not generalize well to the population.
+
+  + Why does overfitting result in a higher R-squared value?
+    - R-squared measures variance in the outcome explained by predictors.
+    - Adding predictors generally increases the R-squared value.
+    - R-squared can increase even with irrelevant predictors.
+    - Higher R-squared does not always mean better model performance.
+    - Irrelevant variables may create a false appearance of improvement.
+    - Too many predictors can make the model overly specific.
+    - A high R-squared alone may indicate overfitting, not generalization.
+
+  + When to use adjusted R-squared instead
+    - Adjusted R-squared penalizes adding unnecessary independent variables.
+    - It reflects variation explained by predictors significantly related to the              outcome.
+    - Unlike R-squared, it is less likely to become artificially inflated.
+    - Use adjusted R-squared to compare models and avoid overfitting.
+
+  + Bias versus variance
+    - Underfitting is associated with high bias.
+    - Overfitting is associated with high variance and poor performance on new data.
+    - The bias-variance tradeoff means reducing one usually increases the other.
+    - Aim to minimize both underfitting and overfitting, though neither can be                eliminated completely.
+
+# Top variable selection methods
+  + Variable selection / Feature selection
+    - The process of determining which variables or features to include in a given            model.
+  + Forward selection
+    - A stepwise variable selection process that begins with the null model, with 0 
+      independent variables, considers all possible variables to add. In incorporates 
+      the independent variable that contributes the most explanatory power to the model.
+  + Backward elimination
+    - A stepwise variable selection process that begins with the full model, with all         possible independent variables, and removes the independent variable that adds          the least explanatory power to the model.
+  + Extra-sum-of-squares F-test
+    - Quantifies the difference between the amount of variance that is left unexplained 
+      by a reduced model that is explained by the full model.
+
+# Regularization: Lasso, Ridge, and Elastic-Net regression
+  + Bias-variance tradeoff
+    - Balance between two model qualities, bias and variance, to minimize overall error
+      for unobserved data
+  + Bias 
+    - Simplifies the model predictions by making assumptions about the variable               relationships. A highly biased model may oversimplify the ralationship, 
+      underfitting to the ovserved data, and generating inaccurate estimates.
+  + Variance
+    - Model flexibility and complexity, so the model learns from existing data. A model
+      with high variance can overfit to observed data and generate inaccurate estimates 
+      for unseen data.
+    + Regularization
+      - A set of regression techniques that shrinks regression cofficient estimates 
+        towards zero, adding in bias, to reduce variance.
+    + Regularized regression
+      1. Lasso regression
+        - Completely removes the variables that are not include in Y variable(s).
+      2. Ridge regression
+        - Impact of less important variables is minimized.
+      3. Elastic-net regression
+        - It is useful for working with large dataset. It be is used by combining of              lasso and ridge.
