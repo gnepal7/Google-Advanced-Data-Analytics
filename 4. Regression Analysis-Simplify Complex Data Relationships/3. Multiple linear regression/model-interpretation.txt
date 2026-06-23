@@ -1,1 +1,10 @@
+# Interpret multiple regression coefficients
+  + Interaction term
+    - A term that represents how the relationship between two independent variables is        associated with changes in the mean of the dependent variable.
 
+# Interpret multiple regression results with Python
+  + Import train-test-split function from sci-kit learn
+    from sklearn.model_selection import train_test_split
+
+  + Import ols() function from statsmodels package
+    from statsmodels.formula.api import ols
