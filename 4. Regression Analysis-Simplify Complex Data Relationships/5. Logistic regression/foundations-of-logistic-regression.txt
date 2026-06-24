@@ -1,1 +1,33 @@
 # Welcome to module 5
+  + Logistic regression
+    - A technique that models a categorical dependent variable (Y) based on one or more
+      independent variable (X).
+  + Binomial logistic regression
+    - A technique that models the probability of an observation falling into one of two
+      categories, based on one or more independent variables.
+
+# Find the best logistic regression model for your data
+  + Binomial logistic regression assumption
+    => Binomial logistic regression linearity assumptions
+      - There should be a linear relationshhip between each X variable and the logit 
+        of the probability that Y equals 1.
+  + Logit (log-odds)
+    - The logarithm of the odds of a given probability. So the logit of probability p 
+      is equal to the logarithm of p divided by 1 minus p
+      logit (p) = log(p / 1-p)
+  + Maximum likelihood estimation (MLE)
+    - A technique for estimating the beta parameters that maximizes the likelihood of 
+      the model producing the observed data.
+  + Likelihood
+    - The probability of observing the actual data, given set of beta parameters.
+  + Binomial logistic regression assumptions:
+    - Linearity
+    - Independent observations
+    - No multicollinearity
+    - No extreme outliers in a dataset.
+
+
+
+
+
+
