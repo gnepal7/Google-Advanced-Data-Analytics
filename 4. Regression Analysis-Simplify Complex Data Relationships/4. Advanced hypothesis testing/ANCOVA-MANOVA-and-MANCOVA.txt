@@ -1,0 +1,21 @@
+# ANCOVA: Analysis of covariance
+  + ANCOVA
+    - A statistical technique that tests the difference of means
+      between three or more groups while controlling for the effects
+      of covariates, or variable(s) irrelevent to your test.
+
+# More dependent variables: MANOVA and MANCOVA
+  + MANOVA :- multivariate analysis of variance
+    - An extension of ANOVA that compares how two or more continuous
+      outcome variables vary according to categorical 
+      independent variables.
+    => One-way MANOVA
+      - One categorical independent variable
+    => Two-way MANOVA
+      - Two categorical independent variables
+    => Outcome will be continuous variables
+  
+  + MANCOVA :- Multivariate analysis of covariance
+    - An extension of ANCOVA and MANCOVA that compares how two or more
+      continuous outcome variables vary according to categorical
+      independent variables, while controlling for covariates.

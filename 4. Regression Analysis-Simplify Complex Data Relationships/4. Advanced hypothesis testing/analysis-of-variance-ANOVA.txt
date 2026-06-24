@@ -1,0 +1,52 @@
+# Introduction to the analysis of variance : ANOVA
+  + Analysis of Variance (ANOVA)
+    - A group of statistical techniques that test the difference
+      of means between three or more groups.
+    - It is extension of t-test.
+    => One-way ANOVA
+      - Compares the means of one continuous dependent variable
+        based on three or more groups of one categorical variable.
+      - There are five steps in performing a one-way ANOVA test:
+        1. Calculate group means and grand (overall) mean
+        2. Calculate the sum of squares between groups (SSB) and 
+          the sum of squares within groups (SSW)
+        3. Calculate mean squares for both SSB and SSW
+        4. Compute the F-statistic
+        5. Use the F-distribution and the F-statistic to get a 
+           p-value, which you use to decide whether to reject the null hypothesis
+    => Two-way ANOVA
+      - Compares the means of one continuous dependent variable based
+        on three or more groups of two categorical variables.
+
+# More about ANOVA
+  + An overview of ANOVA
+    - ANOVA compares variability between groups and within groups.
+    - Similar variability suggests differences are due to sampling variation.
+    - F-statistic is the ratio of between-group to within-group variation
+
+# Explore one-way vs. two-way ANOVA tests with Python
+  + Import necessaries libraries from Python
+    import statsmodels.api as sm 
+    from statsmodels.formula.api import ols 
+
+    sm.stats.anova_lm()
+
+# ANOVA post hoc tests with Python
+  + Post hoc test
+    - Performs a pairwise comparison between all available groups
+      while controlling for the error rate.
+    from statsmodels.stats.multicomp import pairwise_tukeyhsd
+    ...
+    tukey_oneway.summary()
+
+# Ignacio: Discovery at every stage of your career
+
+# From Lab 
+  Perform a one-way ANOVA test
+  sm.stats.anova_lm(model, typ = 2)
+
+  Perform an ANOVA post hoc test
+  # Perform the Tukey's HSD post hoc test.
+  tukey_oneway = pairwise_tukeyhsd(endog = data['Sales'], groups = data['TV'])
+  ### YOUR CODE HERE ### 
+  tukey_oneway.summary()

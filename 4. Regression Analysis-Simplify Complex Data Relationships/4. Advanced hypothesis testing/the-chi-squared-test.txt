@@ -1,0 +1,59 @@
+# Welcome to module 4
+  + Hypothesis testing
+    - A statistical procedure that uses sample data to evaluate
+      an assumption about a population parameter.
+  + What you'll learn
+    - X2 (chi-square) distributions
+    - X2 tests
+    - ANOVA 
+    - ANCOVA
+    - MANOVA
+    - MANCOVA
+  + Chi-square (X2) tests will help us determine if two categorical variables
+    are associated with one another, and whether a categorical variable
+    follows an expected distribution.
+
+# Hypothesis testing with chi-squared
+  + t tests
+    - Null & alternative hypothesis
+    - Continuous data
+  + X2 tests  
+    - Null & alternative hypothesis
+    - Categorical data
+  + X2 Goodness of fit test
+    - Determines whether an observed categorical variable follows
+      an expected distribution.
+  + X2 Test for independence
+    - Determines whether or not two categorical variables are associated
+      with each other.
+
+# Chi-squared tests: Goodness of fit versus independence
+  + The Chi-squared goodness of fit test 
+    - Chi-square goodness of fit tests categorical distribution match.
+    - Null hypothesis: observed data follows expected distribution.
+    - Alternative hypothesis: observed data does not follow expected distribution.
+    - Test compares observed and expected frequencies across categories.
+    - Conclusion determines whether distribution differences are statistically significant.
+
+  + Sample of chi-square tests using Python library
+    import scipy.stats as stats
+    observations = [650, 570, 420, 480, 510, 380, 490]
+    expectations = [500, 500, 500, 500, 500, 500, 500]
+    result = stats.chisquare(f_obs=observations, f_exp=expectations)
+    result
+
+    import numpy as np
+    import scipy.stats as stats
+    observations = np.array([[850, 450],[1300, 900]])
+    result = stats.contingency.chi2_contingency(observations, correction=False)
+    result
+
+  + Key takeways
+    - The 𝛸2 goodness of fit test is used to test if an observed categorical 
+      variable follows a particular expected distribution.
+    - The 𝛸2 test for independence is used to test if two categorical variables 
+      are independent of each other or not (when samples are drawn at random and 
+      you want to make an inference about the whole population).
+    - Both 𝛸2 tests follow the same hypothesis testing steps to determine whether 
+      you should reject or fail to reject the null hypothesis to drive decision 
+      making, as you have explored elsewhere in this program. 
