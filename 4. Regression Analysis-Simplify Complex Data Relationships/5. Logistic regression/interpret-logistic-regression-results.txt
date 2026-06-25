@@ -1,0 +1,74 @@
+# Evaluate a binomial logistic regression model
+  + Confusion matrix
+    - A graphical representation of how accurate a classifier is actual
+      predicting the labels for a categorical variable.
+
+# Key metrics to assess logistic regression results
+  + Evaluation metrics
+    - Precision
+      > The proportion of positive predictions that were true positives.
+      > precision = True positives / True positives + False positives
+    - Recall
+      > The proportion of positives the model was able to 
+        identify correctly
+      > Recall = True positives / True positives + False negatives
+    - Accuracy
+      > The proportion of data points that were correctly categorized.
+      > Accuracy = True positives + True negatives / Total predictions
+    => These can be used by importing scikit-learn
+
+# Common logistic regression metrics in Python
+  - Logistic regression predicts categorical outcomes using 
+    statistical classification techniques.
+  - Precision, recall, accuracy, and ROC curves evaluate model performance.
+  + Parts of a confusion matrix
+    - The four parts of a confusion matrix:
+      1. True negatives: The count of observations that a classifier 
+         correctly predicted as False (0)
+      2. True positives: The count of observations that a classifier 
+         correctly predicted as True (1)
+      3. False positives: The count of observations that a classifier 
+         incorrectly predicted as True (1)
+      4. False negatives: The count of observations that a classifier 
+         incorrectly predicted as False (0)
+  + ROC curves
+    - ROC :- Receiver operating characteristic
+    - ROC curve visualizes classifier performance across different classification thresholds.
+    - Threshold determines separation between positive and negative classes.
+    => True Positive Rate: equivalent to Recall. 
+      True positive rate = True positives / True positives + false negatives
+    => False Positive Rate:  The ratio between the False Positives and the total 
+       count of observations that should be predicted as False.
+      False positive rate = False positives / false positives + True negatives
+
+  + AUC :- 
+    - AUC means area under the ROC curve.
+    - AUC measures performance across all classification thresholds.
+    - AUC ranges from 0.0 to 1.0.
+    - AUC = 1.0 indicates perfect predictions; 0.0 indicates completely wrong.
+    - AUC > 0.5 outperforms random classification; AUC < 0.5 underperforms.
+
+# Interpret the results of a logistic regression
+  + Other matrix
+    - AIC
+    - BIC
+
+# Interpret logistic regression models
+  + Things to consider when choosing metrics
+    => When to use precision?
+      - Precision is useful when false positives are more costly.
+      - It measures how many predicted positives are actually positive.
+      - High precision reduces incorrect positive classifications.
+      - Email spam detection often prioritizes precision over recall.
+      - Misclassifying important emails as spam can have serious consequences.
+    => When to use recall?
+      - Recall is useful when false negatives are especially costly.
+      - It measures how many actual positives are correctly identified.
+      - High recall reduces missed positive cases.
+      - Fraud detection prioritizes recall to catch fraudulent transactions.
+    => When to use accuracy?
+      - Accuracy measures the proportion of correctly classified observations.
+      - It is most appropriate when classes are roughly balanced.
+      - Accuracy can be misleading with highly imbalanced datasets.
+      - High accuracy may reflect majority-class bias, not true performance.
+      - For imbalanced data, balance the data or use other metrics.

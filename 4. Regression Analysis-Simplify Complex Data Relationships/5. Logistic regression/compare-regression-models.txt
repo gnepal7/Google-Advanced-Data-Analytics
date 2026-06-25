@@ -1,0 +1,26 @@
+# Answer questions with regression models
+  + Linear regression
+    - Accessible interpretation
+    - Explain which factors impact the outcome variables
+    - Check model assumptions
+
+  + Evaluating logistic regression
+    - P-value
+    - Confusion matrices
+    - Precision
+    - Recall
+    - Accuracy
+    - ROC/AUC 
+    - AIC 
+    - BIC
+
+# Prediction with different types of regression
+  + How to choose a regression technique
+    - What is the question you want to answer? In other words, 
+      what do you want to predict? 
+    - Which variable in your data can be the outcome variable?
+    - How is the outcome variable measured? If the outcome 
+      variable is continuous, it is more likely that either linear 
+      regression or hypothesis testing will be most appropriate. 
+      However, if the outcome variable is binary, you will find 
+      logistic regression to be more useful.
