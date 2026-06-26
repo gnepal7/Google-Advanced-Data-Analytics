@@ -5,14 +5,23 @@
     
 # Susheela: Delight people with data
 
+# Welcome to module 1
+  + Main types of Machine learning
+  + Variable types
+  + Recommendation system
+  + Ethics for machine learning
 
-
-
-
-
-
-
-
-
-
-
+# The main types of machine learning
+  + Supervised machine learning
+    - Uses labeled datasets to train algorithms to classify or predict outcomes.
+    - A category of machine learning that uses labeled datasets to train algorithms to 
+      classify or predict outcomes.
+  + Unsupervised machine learning
+    - Uses algorithms to analyze and cluster unlabeled datasets.
+  + Re-inforcement learning  
+    - Robotics
+  + Deep learning
+    - Connection of inter-connected layers
+  + AI
+    - Large and advanced form of machine learning.
+  => Quality is more than important quantity.
