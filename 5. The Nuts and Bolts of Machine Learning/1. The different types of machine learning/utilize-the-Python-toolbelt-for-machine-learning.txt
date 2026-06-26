@@ -1,1 +1,22 @@
+# Python for machine learning
+  + IDE :- Integrated Development Environment
+    - A piece of software that has an interface to write, run, and test a piece of            code. 
+  + Types of Python files
+    .py
+    .ipynb
+  + Python script advantages
+    - Better for programs incorporating several files
+    - Easier to test and deubg
+  + Python nootbook advantages
+    - Uses code to tell a story
+    - Ability to embed non-code element
+    - Can be exported to PDF or deployed as HTML quite easily
+
+
+
+
+
+
+
+
 
