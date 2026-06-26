@@ -1,0 +1,18 @@
+# Introduction to Course 5
+  + Machine learning
+    - The use and development of algorithms and statistical models to 
+      teach computer systems to analyze and discover patterns in data.
+    
+# Susheela: Delight people with data
+
+
+
+
+
+
+
+
+
+
+
+
