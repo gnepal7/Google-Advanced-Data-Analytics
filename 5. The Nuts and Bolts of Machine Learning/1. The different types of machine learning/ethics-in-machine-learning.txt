@@ -1,1 +1,25 @@
-
+# Equity and fairness in machine learning
+  + Popularity bias
+    - The phenomenon of more popular items being recommended too frequently.
+  => Bias in machine learning is unacceptable
+  => Bias can be by algorithms and trained data.
+  
+# Build ethical models
+  + Predictive model
+    => Adopt PACE framework for creating predictive model.
+      - Plan:-
+        > What is the purpose of your model?
+        > How will its predictions be used?
+        > By whom?
+        > Who is affected?
+        > How harmful/significant could effects be?
+      - Analyze :- is your data, 
+        > Appropriate?
+        > Well sourced?
+        > Representative?
+      - Construct :-
+        > How important is it that your model's predictions be explainable?
+      - Execute :-
+        > Do your model/predictions make sense?
+        > Are predictions fair?
+        > Is somebody responsible for reviewing/monitoring model pre- and post-                   deployment?
