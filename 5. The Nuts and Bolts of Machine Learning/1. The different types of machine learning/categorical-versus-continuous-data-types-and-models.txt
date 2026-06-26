@@ -1,1 +1,11 @@
+# Determine when features are infinite
+  + Continuous features
+    - Features that can take on an infinite and uncountable set of values.
 
+# Categorical features and classification models
+  + Continuous variables
+    - Variables that can take on an infinite and uncountable set of values.
+  + Categorical variables
+    - Variables that contain a finite number of groups or categories.
+  + Discrete features
+    - Features with a countable number of values between any two values.
