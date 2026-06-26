@@ -1,1 +1,28 @@
+# Guide user interest with recommendation systems
+  + Recommendation system
+    - Unsupervised learning techniques that use unlabeled to offer relevant
+      suggestions to users.
+    Goal :- To quantify how similar one thing is to another.
+  + Content-based filtering
+    - Comparisons are made based on attributes of content.
+    => Benefits
+      1. Easy to understand
+      2. Recommends what user likes
+      3. Doesn't need info from other users
+      4. Can map users and items in same space
+    => Some drawbacks
+      a. Always recommends more of the same
+      b. Requires anual input of attributes
+      c. Can't recommend across content type
+  + Collaborating filtering 
+    - Comparisons are made based on who else liked the content
+    => Benefits
+      i. Can recommend across content types
+      ii. Can find hidden correlations in data
+      iii. Does not require manual mapping
+    => Drawbacks
+      a. Requires LOTS of data to work
+      b. Requires of data from each user
+      c. Data is sparse 
 
+# Case study: The Woobles: The power of recommendation systems to drive sales
