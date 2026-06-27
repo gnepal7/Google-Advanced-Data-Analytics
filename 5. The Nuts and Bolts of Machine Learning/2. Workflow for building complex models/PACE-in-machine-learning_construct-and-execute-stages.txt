@@ -1,1 +1,29 @@
+# Introduction to Naive Bayes
+  + Naive Bayes
+    - A supervised classification technique that is based on Bayes' Theorem with an           assumption of independence among predictors.
+
+# Naive Bayes classifiers
+  + How do Naive Bayes models work?
+    - Supervised classification using response and predictor variables for model              training.
+    - Based on Bayes’ Theorem to calculate class probabilities from predictors.
+    - Computes posterior probability of each class given predictor variable values.
+    => That probability is calculated using three values:
+      > The probability of the outcome overall P(A)
+      > The probability of the value of the predictor variable P(B)
+      > The conditional probability P(B|A) (Note: P(B|A) is interpreted as the                  probability of B, given A.)
+    > Positives and negatives
+      - Simple and easy classification algorithm with strong performance in many               applications.
+      - Commonly used for document classification and spam filtering tasks.
+      - Fast training with low computational cost and excellent scalability.
+      - Performs well even when conditional independence assumption is violated.
+      - Zero-frequency problem solved using smoothing by adding small counts(typically 1).
+    > Implementations in scikit-learn
+      => sklearn.naive_bayes
+        - BernoulliNB: Used for binary/Boolean features 
+        - CategoricalNB: Used for categorical features
+        - ComplementNB: Used for imbalanced datasets, often for text classification               tasks
+        - GaussianNB:	Used for continuous features, normally distributed features
+        - MultinomialNB: Used for multinomial (discrete) features
+
+
 
