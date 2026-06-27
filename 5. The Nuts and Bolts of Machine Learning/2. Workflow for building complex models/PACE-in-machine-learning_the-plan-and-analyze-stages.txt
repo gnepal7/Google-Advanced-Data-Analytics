@@ -138,6 +138,6 @@
     - Techniques like averaging or algorithms in Python generate 
       realistic synthetic samples.
 
-
-
-
+# Feature engineering and class balancing
+  + Customer churn
+    - Business term that describes how many and at what rate customers stop using a           product or service, or stop doing business with a company altogether.
