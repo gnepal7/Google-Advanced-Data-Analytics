@@ -12,11 +12,27 @@
     - Ability to embed non-code element
     - Can be exported to PDF or deployed as HTML quite easily
 
+# Different types of Python IDEs
+  + VScode 
+    - Support Python nootbook file and script.
 
+# Reference guide: Python for machine learning
+  - Two of most popular coding language for data analysis are R and Python.
 
+# More about Python packages
+  + Data analysis packages/Operational packages
+    - Pandas
+    - Numpy :- Numerical Python
+    - Scipy
+  + Data visualization
+    - Matplotlib
+      > Lots of features for visualization
+    - Seaborn :- an extension of Matplotlib
+      > Focused on statistical visualizations
+    - Plotly
+      > Used for presentations or publications
+      > Can create incredible graphs and allows interactive elements
+  + Machine learning
+    - Scikit-learn 
 
-
-
-
-
-
+# Python libraries and packages
