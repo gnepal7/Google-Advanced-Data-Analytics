@@ -1,0 +1,34 @@
+# Welcome to module 3
+  + Unsupervised learning
+    - K-means models
+      > Inertia
+      > Silhouette score
+
+# Introduction to K-means
+  + K-means
+    - Centriod
+      => The center of cluster determined by the mathematical mean
+         of all the points in that cluster.
+      => K represents the number of cluster in the model.
+    - Steps of K-means:
+      1. Initiate k centroids
+      2. Assign all points to their nearest centroid 
+      3. Recalculate the centroid of each cluster based on the 
+         point assigned to it.
+      4. Repeat 2/3.
+
+# More about K-means
+
+
+
+
+
+
+
+
+
+
+
+
+
+
