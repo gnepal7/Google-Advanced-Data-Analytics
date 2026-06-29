@@ -1,1 +1,24 @@
+# Bootstrap aggregation
+  + Ensemble learning (ensembling)
+    - Aggregating their outputs to make a prediction.
+  + Base learner
+    - Each individual model that comprises an ensemble.
+  + Weak learner
+    - A model that performs slightly better than randomly guessing.
+  ++ Bagging :- Bootstrap + aggrating
+    
+  + Random forest
+    - Ensemble of decision trees trained on bootstrapped data with randomly selected features.
+
+# Bagging: How it works and why to use it
+  + Bootstrapping
+    - Bootstrapping samples data with replacement, allowing observations to appear multiple times.
+    - A 1,000-sample bootstrap typically contains about 632 unique original observations.
+  + Aggregating
+    - A single bootstrap sample misses many original observations, reducing available training information.
+    - Ensemble learning builds multiple models using different bootstrap samples of the data.
+    - Together, ensemble models learn from nearly all observations and improve predictions.
+
+# Explore a random forest
+
 
