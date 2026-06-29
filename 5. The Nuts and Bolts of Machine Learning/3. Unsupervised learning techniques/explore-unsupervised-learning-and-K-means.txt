@@ -19,16 +19,13 @@
 
 # More about K-means
 
+# Use K-means for color compression with Python
 
-
-
-
-
-
-
-
-
-
-
-
-
+# Clustering beyond K-means
+  + DBSCAN
+    - DBSCAN stands for density-based spatial clustering of 
+      applications with noise. 
+    - It searches your data space for continuous regions of high density
+  + Agglomerative clustering
+    - Agglomerative clustering works by first assigning every point to its 
+      own cluster, then progressively combining clusters based on intercluster distance.

@@ -1,0 +1,76 @@
+# Tune a decision tree
+  + Hyperparameters
+    - Parameters that can be set before the model is trained.
+  + Max depth
+    - Defines how 'long' a decision tree can get.
+  + Min samples leaf
+    - Defines the minimum number of samples for a leaf node.
+
+  + GridSearch
+    - A tool to confirm that a model achieves its intended purpose
+      by systematically checking every combination of Hyperparameters
+      to identify which set produces the best results, based on 
+      the selected metric.
+
+# Hyperparameter tuning
+  + Hyperparameter tuning
+    - Models must learn patterns that generalize well to unseen data.
+    - Overfitting occurs when models learn noise and perform poorly on new data.
+    - Underfitting happens when models fail to capture important patterns in data.
+    - Good models balance fitting training data without capturing randomness or noise.
+    - Hyperparameters control model behavior and are tuned before training begins.
+  + Hyperparameters for decision trees
+    => max_depth
+      - Max depth controls how many levels a decision tree can grow from root to leaf.
+      - Very deep trees can overfit training data, while shallow trees may underfit.
+      - Best models balance depth to generalize well without memorizing noise.
+    => min_samples_split
+      - min_samples_split sets minimum samples required for a node to split further.
+      - Higher values make the tree stop growing earlier, producing simpler models.
+      - Smaller thresholds allow deeper splitting, while larger ones may leave mixed nodes.
+    => min_samples_leaf
+      - min_samples_leaf sets the minimum samples required in each child node after a split.
+      - It differs from min_samples_split by constraining child node size, not parent size.
+      - Larger values prevent splits that create very small or uneven leaf nodes.
+  + Finding the optimal set of hyperparameters
+    => Grid search
+      - Grid search trains models for every combination of specified hyperparameter values.
+      - It evaluates combinations to find the best balance of fit and generalization.
+      - Each hyperparameter combination produces a separate model for comparison.
+      - The total models equal the product of all hyperparameter value options.
+      - Some combinations increase regularization by limiting tree complexity.
+      - Grid search can become computationally expensive with many parameters.
+      - Efficient strategies include iterative narrowing or using broader initial ranges.
+
+# Verify performance using validation
+  + Model validation
+    - The set of processes and activities intended to verify that
+      models are performing as expected.
+  + Cross validation
+    - A process that uses different portions of the data to test and 
+      train a model on different iterations.
+
+# More about validation and cross-validation
+  + Model validation
+    - Test data should evaluate only the final model, not select the best model.
+    - Choosing models using test data creates an overly optimistic performance estimate.
+    - Model selection based on test results indirectly tunes the model.
+    - Validation compares multiple models before choosing the best-performing candidate.
+    - Proper validation provides a more objective assessment of model performance.
+  + Validation sets
+    - A validation set compares models while preserving the test set for final evaluation.
+    - Separate validation works best with large datasets providing enough representative validation samples.
+    - Retrain the chosen model using training and validation data before final testing.
+  + Cross validation
+    - Cross-validation splits training data into k folds for repeated training and validation.
+    - Each fold serves once as validation, with average scores measuring overall performance.
+    - Selected models are retrained using all training data after cross-validation completes.
+    - Cross-validation reduces randomness and provides more reliable performance estimates.
+    - It is especially useful for smaller datasets, though more folds increase training time.
+
+# Tune and validate decision trees with Python
+
+
+
+
+

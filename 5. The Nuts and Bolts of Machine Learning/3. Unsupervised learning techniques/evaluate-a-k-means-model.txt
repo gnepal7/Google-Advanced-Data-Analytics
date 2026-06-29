@@ -1,0 +1,216 @@
+# Key metrics for representing K-means clustering
+  - Grouping observations based on their similiraties.
+  + Inertia
+    - Sum of the squared distances between each observation and 
+      its nearest centroid.
+
+# Inertia and silhouette coefficient metrics
+  + Silhouette score
+    - The mean of the silhouette coefficients of all the 
+      observations in the model.
+    - Value can be between -1 and 1
+
+# More about inertia and silhouette coefficient metrics
+  + Inertia 
+    - It indicates how compact the clusters are in a model.
+    - It is the sum of squared distance between each point and centroid
+      of the cluster that it's assigned to.
+    - Measures intracluster distance
+    => lower inertia values are typically better than higher values, 
+       because low values indicate that points are closer together 
+       within their clusters
+
+    > Evaluating inertia
+      - Inertia measures clustering quality but is meaningful only when 
+        compared across different k values.
+      - Choose k where inertia reduction slows significantly, 
+        indicating diminishing returns from additional clusters.
+    > The elbow method
+      - The elbow method identifies the optimal number of clusters 
+        by comparing inertia across different k values.
+      - It uses a line plot to find where inertia begins decreasing 
+        more slowly.
+
+  + Silhouette analysis
+    - A silhouette coefficient can range between -1 and +1. A value closer 
+      to +1 means that a point is close to other points in its own cluster and well 
+      separated from points in other clusters.
+    - Silhouette analysis compares clustering models using silhouette scores 
+      calculated from each data instance.
+    - Measures both intercluster distance and intracluster distance
+    - Equal to the average of all points’ silhouette coefficients
+    - Can be between -1 and +1 (greater values are better)
+
+# Apply inertia and silhouette score with Python
+  import numpy as np
+  import pandas as pd
+
+  from sklearn.cluster import KMeans
+  from sklearn.metrics import silhouette_score
+  from sklearn.preprocessing import StandardScaler
+
+  from sklearn.datasets import make_blobs
+
+  import seaborn as sns
+
+  # Create random number generator
+  rng = np.random.default_rng(seed=44)
+  
+  # Create synthetic data w/ unknown number of clusters
+  centers = rng.integers(low=3, high=7)
+  X, y = make_blobs(n_samples=1000, n_features=6, centers=centers, random_state=42)
+
+  # Create Pandas dataframe from the data
+  X = pd.DataFrame(X)
+  X.head()
+
+  # Scale the data
+  X_scaled = StandardScaler().fit_transform(X)
+  X_scaled[:2,:]
+
+  # Instantiate model
+  kmeans3 = KMeans(n_clusters=3, random_state=42)
+
+  # Fit model to data
+  kmeans3.fit(X_scaled)
+
+  print('Clusters: ', kmeans3.labels_)
+  print('Inertia: ', kmeans3.inertia_)
+
+  => Scaler available in scikit-learn
+    1. StandardScaler
+    2. MinMaxScaler
+    3. Normalizer
+    4. Many others
+  
+  + Evaluate inertia
+    # Create a list from 2-10. 
+num_clusters = [i for i in range(2, 11)]
+
+def kmeans_inertia(num_clusters, x_vals):
+    '''
+    Fits a KMeans model for different values of k.
+    Calculates an inertia score for each k value.
+    Args:
+        num_clusters: (list of ints)  - The different k values to try
+        x_vals:       (array)         - The training data
+
+    Returns: 
+        inertia:      (list)          - A list of inertia scores, one for each \
+                                      value of k
+    '''
+
+    inertia = []
+    for num in num_clusters:
+        kms = KMeans(n_clusters=num, random_state=42)
+        kms.fit(x_vals)
+        inertia.append(kms.inertia_)
+    return inertia
+
+  # Calculate inertia for k=2-10
+  inertia = kmeans_inertia(num_clusters, X_scaled)
+  inertia
+
+  # Create an elbow plot
+  plot = sns.lineplot(x=num_clusters, y=inertia)
+  plot.set_xlabel("Number of clusters");
+  plot.set_ylabel("Inertia");
+
+  # Get silhouette score for kmeans3 model
+  kmeans3_sil_score = silhouette_score(X_scaled, kmeans3.labels_)
+  kmeans3_sil_score
+
+  def kmeans_sil(num_clusters, x_vals):
+    '''
+    Fits a KMeans model for different values of k.
+    Calculates a silhouette score for each k value
+
+    Args:
+        num_clusters: (list of ints)  - The different k values to try
+        x_vals:       (array)         - The training data
+
+    Returns: 
+        sil_score:    (list)          - A list of silhouette scores, one for each \
+                                      value of k
+    '''
+  
+    sil_score = []
+    for num in num_clusters:
+        kms = KMeans(n_clusters=num, random_state=42)
+        kms.fit(x_vals)
+        sil_score.append(silhouette_score(x_vals, kms.labels_))
+    
+    return sil_score
+
+  # Calculate silhouette scores for k=2-10
+  sil_score = kmeans_sil(num_clusters, X_scaled)
+  sil_score
+
+  # Create a line plot of silhouette scores 
+  plot = sns.lineplot(x=num_clusters, y=sil_score)
+  plot.set_xlabel("# of clusters");
+  plot.set_ylabel("Silhouette Score");
+
+  # Verify our findings (only possible when "correct" number of clusters exists)
+  centers
+
+  # Fit a 5-cluster model to the data
+  kmeans5 = KMeans(n_clusters=5, random_state=42)
+  kmeans5.fit(X_scaled)
+
+  print(kmeans5.labels_[:5])
+  print('Unique labels:', np.unique(kmeans5.labels_))
+
+  # Create new column that indicates cluster assignment in original dataframe 
+  X['cluster'] = kmeans5.labels_
+  X.head()
+
+  # Create a new observation (for demonstration)
+  new_observation = rng.uniform(low=-10, high=10, size=6).reshape(1, -1)
+  new_observation
+
+  # Instantiate the scaler and fit it to the original X data
+  scaler = StandardScaler().fit(X.iloc[:,:-1])
+
+  # Apply the scaler to the new observation
+  new_observation_scaled = scaler.transform(new_observation)
+  new_observation_scaled
+
+  # Predict cluster assignment of new_observation
+  new_prediction = kmeans5.predict(new_observation_scaled)
+  new_prediction
+
+  # Calculate distances between new data and each centroid
+  distances = kmeans5.transform(new_observation_scaled)
+  distances
+
+# Wrap-up
+
+# Glossary terms from module 3
+  + Terms and definitions from Course 5, Module 3
+    - Affinity: The metric used to calculate the distance between points/clusters
+    - Agglomerative clustering: A clustering methodology that works by first assigning 
+      every point to its own cluster, then progressively combining clusters based on intercluster distance
+    - Average: The distance between each cluster’s centroid and other clusters’ centroids
+    - Centroid: The center of a cluster determined by the mathematical mean of all the points in that cluster
+    - Complete: The maximum pairwise distance between clusters
+    - DBSCAN: A clustering methodology that searches data space for continuous regions of high density; stands 
+      for “density-based spatial clustering of applications with noise” 
+    - distance_threshold: A hyperparameter in agglomerative clustering models that determines the distance 
+      above which clusters will not be merged
+    - eps (Epsilon): In DBSCAN clustering models, a hyperparameter that determines the radius of a search area 
+      from any given point
+    - Inertia: The sum of the squared distances between each observation and its nearest centroid	 
+    - K-means: An unsupervised partitioning algorithm used to organize unlabeled data into groups, or clusters
+    - K-means++: An optimization of K-means that chooses the first centroid uniformly at random from the data 
+      points, after which each subsequent centroid is chosen from the remaining points with probability proportional 
+      to its squared distance from the point's closest existing centroid
+    - Linkage: The method used to determine which points/clusters to merge
+    - min_samples: In DBSCAN clustering models, a hyperparameter that specifies the number of samples in an 
+      ε-neighborhood for a point to be considered a core point (including itself)
+    - n_clusters: In K-means and agglomerative clustering models, a hyperparameter that specifies the number 
+      of clusters in the final model
+    - Silhouette analysis: The comparison of different models’ silhouette scores
+    - Silhouette score: The mean of the silhouette coefficients of all the observations in a model
+    - Single: The minimum pairwise distance between clusters
+    - Ward: Merges two clusters whose merging will result in the lowest inertia
