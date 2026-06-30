@@ -205,6 +205,11 @@
     
       disp.plot()
       plt.show()
+  
+  conf_matrix_plot(xgb_cv, X_test, y_test)
+
+  ++ Feature importance
+  plot_importance(xgb_cv.best_estimator_);
 
 
 
