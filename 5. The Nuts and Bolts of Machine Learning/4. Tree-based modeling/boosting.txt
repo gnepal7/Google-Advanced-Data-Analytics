@@ -1,0 +1,213 @@
+# Introduction to boosting: AdaBoost
+  + Boosting 
+    - Technique that builds an ensamble of weak learners sequentially
+      , with each consecutive learner trying to correct the errors
+      of the one that preceded it.
+    => Similarities to random forest and bagging
+      - Ensambling technique 
+      - Aggregates weak learners    
+    => Differences from random forest and bagging
+      - Learners are built sequentially, not in parallel
+      - Not limited to tree-based learners
+
+  + Adaptive boosting (AdaBoost)
+    - A boosting methodology where each consecutive base learner assigns
+      greater weight to the observations incorrectly predicted by the 
+      preceding learner.
+
+# Gradient boosting machines
+  + Gradient boosting
+    - A boosting methodology where each base learner in the sqquence is 
+      built to predict the residual errors of the model that preceded it.
+  + Gradient boosting machines (GBMs)
+    - Model ensambles that use gradient boosting.      
+    => Advantages of GBMs
+      - High accuracy
+      - Generally scalable
+      - Woek well with missing data
+      - Don't require scaling
+    => Disadvantages of GBMs
+      - Tuning hyperparameters can be time-consuming
+      - Difficult to interpret
+      - Have difficulty with extrapolation 
+      - Prone to overfitting if too many hyperparameters are tuned.
+  + Black-box model
+    - Any model whose predictions cannot be precisely explained
+  + Extrapolation
+    - A model's ability to predict new values that fall outside of the 
+      range og values in the training data.
+
+# More about gradient boosting
+  - Gradient boosting is a powerful and straightforward technique 
+    that uses an ensemble of weak learners to make a final prediction. 
+    GBM models are more resilient to high variance that results from 
+    overfitting the data due to being comprised of high-bias, 
+    low-variance weak learners. The bias of each weak learner in the
+    final model is mitigated by the ensemble.
+
+# Tune a GBM model
+  + XGBoost
+    - Extrema gradient boosting, an optimized GBM package.
+    => learning_rate (shrinkage)
+      - How much weight is given to each consecutive tree's prediction in 
+        the final ensamble.
+      > Typical values : 0.01-0.3
+    => min_child_weight
+      > A tree will not split a node if it results in any child node with
+        less weight than this value.
+      > Typical value -> (0-1): interpreted as a percentage (e.g, 0.1 = 10 of training data.)
+
+# Reference guide: XGBoost tuning
+
+# Build an XGBoost model with Python
+  import numpy as np
+  import pandas as pd
+
+  # This is the classifier
+  from xgboost import XGBClassifier
+
+  # This is the function that helps plot feature importance 
+  from xgboost import plot_importance
+
+  from sklearn.model_selection import GridSearchCV, train_test_split
+  from sklearn.metrics import accuracy_score, precision_score, recall_score,\
+  f1_score, confusion_matrix, ConfusionMatrixDisplay, RocCurveDisplay
+
+  import matplotlib.pyplot as plt
+
+  # This displays all of the columns, preventing Juptyer from redacting them.
+  pd.set_option('display.max_columns', None)
+
+  # This module lets us save our models once we fit them.
+  import pickle
+
+  ++ Feature engineering>feature selection 
+  # Drop useless and sensitive (Gender) cols
+  churn_df = df_original.drop(['RowNumber', 'CustomerId', 'Surname', 'Gender'], 
+                              axis=1)
+  churn_df.head()
+
+  ++ Feature transformation
+  # Dummy encode categoricals
+  churn_df2 = pd.get_dummies(churn_df, drop_first='True')
+  churn_df2.head()
+
+  ++ split the data
+  # Define the y (target) variable
+  y = churn_df2["Exited"]
+
+  # Define the X (predictor) variables
+  X = churn_df2.copy()
+  X = X.drop("Exited", axis = 1)
+
+  # Split into train and test sets
+  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, 
+                                                      stratify=y, random_state=42)
+
+  ++ Cross-validated hyperparameter tuning
+  xgb = XGBClassifier(objective='binary:logistic', random_state=0) 
+
+  cv_params = {'max_depth': [4,5,6,7,8], 
+              'min_child_weight': [1,2,3,4,5],
+              'learning_rate': [0.1, 0.2, 0.3],
+              'n_estimators': [75, 100, 125]
+              }    
+
+  scoring = {'accuracy', 'precision', 'recall', 'f1'}
+
+  xgb_cv = GridSearchCV(xgb, cv_params, scoring=scoring, cv=5, refit='f1')
+
+  %%time
+  xgb_cv.fit(X_train, y_train)
+
+  ++ set path with pickle
+  path = '/home/jovyan/work/'
+  # Pickle the model
+  with open(path + 'xgb_cv_model.pickle', 'wb') as to_write:
+    pickle.dump(xgb_cv, to_write) 
+
+  # Open pickled model
+  with open(path+'xgb_cv_model.pickle', 'rb') as to_read:
+    xgb_cv = pickle.load(to_read)
+
+  # Open pickled random forest model
+  with open(path+'rf_cv_model.pickle', 'rb') as to_read:
+      rf_cv = pickle.load(to_read)
+      
+  rf_cv.fit(X_train, y_train)
+
+  print('F1 score random forest CV: ', rf_cv.best_score_)
+  print('F1 score XGB CV: ', xgb_cv.best_score_)
+
+
+  def make_results(model_name, model_object):
+    '''
+    Accepts as arguments a model name (your choice - string) and
+    a fit GridSearchCV model object.
+  
+    Returns a pandas df with the F1, recall, precision, and accuracy scores
+    for the model with the best mean F1 score across all validation folds.  
+    '''
+
+    # Get all the results from the CV and put them in a df
+    cv_results = pd.DataFrame(model_object.cv_results_)
+
+    # Isolate the row of the df with the max(mean f1 score)
+    best_estimator_results = cv_results.iloc[cv_results['mean_test_f1'].idxmax(), :]
+
+    # Extract accuracy, precision, recall, and f1 score from that row
+    f1 = best_estimator_results.mean_test_f1
+    recall = best_estimator_results.mean_test_recall
+    precision = best_estimator_results.mean_test_precision
+    accuracy = best_estimator_results.mean_test_accuracy
+  
+    # Create table of results
+    table = pd.DataFrame({'Model': [model_name],
+                          'F1': [f1],
+                          'Recall': [recall],
+                          'Precision': [precision],
+                          'Accuracy': [accuracy]
+                         }
+                        )
+  
+    return table
+
+  # Create xgb model results table
+  xgb_cv_results = make_results('XGBoost CV', xgb_cv)
+  xgb_cv_results
+
+  # Read in master results table
+  results = pd.read_csv(path+'results2.csv')
+
+  # Concatentate xgb model results table with master results table
+  results = pd.concat([xgb_cv_results, results]).sort_values(by=['F1'], 
+                                                            ascending=False)
+  results
+
+  # Predict on test data
+  xgb_cv_preds = xgb_cv.predict(X_test)
+  print('F1 score final XGB model: ', f1_score(y_test, xgb_cv_preds))
+  print('Recall score final XGB model: ', recall_score(y_test, xgb_cv_preds))
+  print('Precision score final XGB model: ', precision_score(y_test, xgb_cv_preds))
+  print('Accuracy score final XGB model: ', accuracy_score(y_test, xgb_cv_preds))
+
+  ++ confusion matrix 
+  # Create helper function to plot confusion matrix
+  def conf_matrix_plot(model, x_data, y_data):
+      '''
+      Accepts as argument model object, X data (test or validate), and y data (test or validate). 
+      Returns a plot of confusion matrix for predictions on y data.
+      ''' 
+      model_pred = model.predict(x_data)
+      cm = confusion_matrix(y_data, model_pred, labels=model.classes_)
+      disp = ConfusionMatrixDisplay(confusion_matrix=cm,
+                              display_labels=model.classes_)
+    
+      disp.plot()
+      plt.show()
+
+
+
+
+
+
